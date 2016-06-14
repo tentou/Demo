@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dropdown</title>
+    <style>
+      *{
+        margin: 0;
+        padding:0;
+        -webkit-tap-highlight-color:rgba(0,0,0,0);
+        -webkit-text-size-adjust:none;
+      }
+      html{
+        font-size:10px;
+      }
+      body{
+        background-color: #f5f5f5;
+        font-size: 1.2em;
+      }
+      .dropload-content{
+        padding-bottom: 40px;
+        background-color: #fff;
+      }
+      .opacity{
+        -webkit-animation: opacity 0.5s linear;
+        animation: opacity 0.5s linear;
+      }
+      @-webkit-keyframes opacity {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+      }
+      @keyframes opacity {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+      }
+      .dropload-up,.dropload-down{
+        position: relative;
+        height: 0;
+        overflow: hidden;
+        font-size: 12px;
+        /* 开启硬件加速 */
+        -webkit-transform:translateZ(0);
+        transform:translateZ(0);
+      }
+      .dropload-down{
+        height: 50px;
+      }
+      .dropload-refresh,.dropload-update,.dropload-load,.dropload-noData{
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+      }
+      .dropload-load .loading{
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 100%;
+        margin: 6px;
+        border: 2px solid #666;
+        border-bottom-color: transparent;
+        vertical-align: middle;
+        -webkit-animation: rotate 0.75s linear infinite;
+        animation: rotate 0.75s linear infinite;
+      }
+      @-webkit-keyframes rotate {
+        0% {
+          -webkit-transform: rotate(0deg);
+        }
+        50% {
+          -webkit-transform: rotate(180deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+        }
+      }
+      @keyframes rotate {
+        0% {
+          transform: rotate(0deg);
+        }
+        50% {
+          transform: rotate(180deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="dropload-content">
+      <ul class="dropload-lists">
+        <li>0</li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+        <li>15</li>
+        <li>16</li>
+        <li>17</li>
+        <li>18</li>
+        <li>19</li>
+        <li>20</li>
+        <li>21</li>
+        <li>22</li>
+        <li>23</li>
+        <li>24</li>
+        <li>25</li>
+        <li>26</li>
+        <li>27</li>
+        <li>28</li>
+        <li>29</li>
+        <li>30</li>
+        <li>31</li>
+        <li>32</li>
+        <li>33</li>
+        <li>34</li>
+        <li>35</li>
+        <li>36</li>
+        <li>37</li>
+        <li>38</li>
+        <li>39</li>
+        <li>40</li>
+      </ul>
+    </div>
+  <script src="../node_modules/jquery/dist/jquery.js"></script>
+  <script src="../node_modules/zhp-dropload/dropload.js"></script>
+  <script>
+    $(function(){
+      var counter = 0;
+      // 每页展示10个
+      var num = 20;
+      var pageStart = 0,pageEnd = 0;
+
+      // dropload
+      $('.dropload-content').dropload({
+        scrollArea : window,
+        domUp : {
+          domClass   : 'dropload-up',
+          domRefresh : '<div class="dropload-refresh">↓下拉刷新</div>',
+          domUpdate  : '<div class="dropload-update">↑释放更新</div>',
+          domLoad    : '<div class="dropload-load"><span class="loading"></span>加载中...</div>'
+        },
+        domDown : {
+          domClass   : 'dropload-down',
+          domRefresh : '<div class="dropload-refresh">↑上拉加载更多</div>',
+          domLoad    : '<div class="dropload-load"><span class="loading"></span>加载中...</div>',
+          domNoData  : '<div class="dropload-noData">暂无数据</div>'
+        },
+        loadUpFn : function(me){
+          $.ajax({
+            type: 'GET',
+            url: '/data-json1',
+            dataType: 'json',
+            success: function(data){
+              me.unlock();               //当第二次拉到底，再刷新的时候，需要将数据解锁
+              counter = 1;               //当第一次拉到底，再刷新的时候给counter设置一个初始值，好让从第二页开始显示避免重复
+              var result = '';
+              for(var i = 0; i < num; i++){                    //每次更新20条
+                result +=   "<li>"+data.all_row[i].row+"</li>"
+              }
+              setTimeout(function(){
+               $('.dropload-lists').html(result);
+               me.resetload();
+              },1000);
+            },
+            error: function(xhr, type){
+              alert('Ajax error!');
+              // 即使加载出错，也得重置
+              me.resetload();
+            }
+          });
+        },
+        loadDownFn : function(me){
+          $.ajax({
+            type: 'GET',
+            url: '/data-json1',
+            dataType: 'json',
+            success: function(data){
+              var result = '';
+              counter++;
+              if(counter == Math.ceil(data.all_row.length/num)){     //判断：当页数等于数组/每页条数时候   注意：这里涉及到当pageEnd部位num的整数倍的时候
+                pageEnd = data.all_row.length;                         //另结束条数号 = 数组长度
+                pageStart = num*(counter-1);                           //另开始条数号 = 总页数*每页条数
+                for(var i = pageStart; i < pageEnd; i++){
+                  result +=   "<li>"+data.all_row[i].row+"</li>"
+                  if(i == data.all_row.length-1){                       //当i到最后一位的时候进行锁定
+                    //锁定
+                    me.lock();
+                    //无数据
+                    me.noData();
+                    //break;
+                  }
+                }
+              }else{
+                pageEnd = num * counter;
+                pageStart = pageEnd - num;
+                for(var i = pageStart; i < pageEnd; i++){
+                  result +=   "<li>"+data.all_row[i].row+"</li>"
+                }
+              }
+              // 每次数据加载完，必须重置
+              // 为了测试，延迟1秒加载
+              setTimeout(function(){
+                $('.dropload-lists').append(result);
+                me.resetload();
+              },1000);
+            },
+            error: function(xhr, type){
+              alert('Ajax error!');
+              // 即使加载出错，也得重置
+              me.resetload();
+            }
+          });
+        },
+        threshold : 50
+      });
+    });
+  </script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //考察点1：对于基本数据类型和引用数据类型在内存中存放的是值还是指针这一区别是否清楚
+    //考察点2：是否知道如何判断一个变量是什么类型的
+    //考察点3：递归算法的设计
+
+    //方法一：
+    Object.prototype.clone = function(){
+        var o = this instanceof Array ? [] : {};
+        for(var e in this){
+            o[e] = typeof this[e] === 'object' ? this[e].clone():this[e];
+        }
+        return o;
+    }
+
+    //方法二：
+    function clone(Obj){
+        var buf;
+        if(Obj instanceof Array){
+            buf = [];
+            var i = Obj.length;
+            while(i--){
+                buf[i] = clone(Obj[i]);      //防止Obj[i]不是值而是对象
+            }
+            return buf;
+        }else if(Obj instanceof Object){
+            buf = {};
+            for (var k in Obj){
+                buf[k] = clone(Obj[k]);
+            }
+            return buf;
+        }else{
+            return Obj;
+        }
+    }
+</script>
+</body>
+</html>

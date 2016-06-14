@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var User = {
+        count:1,
+        getCount:function(){
+            return this.count;
+        }
+    }
+    console.log(User.getCount());   //1
+
+    var func = User.getCount;
+    console.log(func())            //undefined   因为此时func的上下文是window
+
+    var func = User.getCount.bind(User);
+    console.log(func());           //1
+</script>
+</body>
+</html>

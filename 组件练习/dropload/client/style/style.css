@@ -1,0 +1,14 @@
+.dropload-lists {
+  margin: 0;
+  padding: 0;
+}
+.dropload-lists li {
+  list-style-type: none;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #fff;
+  background-color: #fafafa;
+  font-size: 14px;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var numberArray = [3,6,2,4,1,5];
+    var sortNumber = numberArray.sort(function(a,b){
+        return b - a ;
+    });
+    console.log(sortNumber);
+
+    //第二种变相倒序
+    var sortNum = numberArray.sort();    //先正序
+    var reverseNum = sortNum.reverse();  //后反向
+    console.log(reverseNum);
+</script>
+</body>
+</html>

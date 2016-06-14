@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function log(){
+        console.log.apply(console,arguments)   //另this指向console这个对象
+    }
+    log('haha','hehe')
+    //传入后的arguments = ['haha','hehe']  在传入给console.log的时候是分别做为独立的参数传入的，并不是一下子传入一个数组的，这是和call的区别
+</script>
+</body>
+</html>

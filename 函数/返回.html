@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var a = (function(){
+        var b = 2;
+        return b;     //这里的返回，就相当于直接给a重新赋值了，另a == 2，且访问不到b了
+    })();
+    console.log(a)
+    var a = function a(){
+        var b = 2;
+        //return b;     //这里的返回，就相当于直接给a重新赋值了，另a == 2，且访问不到b了
+    }
+    console.log(a.b)
+</script>
+</body>
+</html>

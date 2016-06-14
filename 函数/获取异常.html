@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    var add = function (a, b) {
+        if (typeof a !== 'number' || typeof b !== 'number') {
+            throw{
+                name: 'TypeError',
+                message: 'add needs numbers'
+            }
+        }
+        return a + b;
+    }
+    var try_it = function () {
+        try {
+            add('seven');
+        } catch (e) {
+            document.write(e.name + ':' + e.message)
+        }
+    }
+    try_it();
+
+    var fibonacci = function(n){
+        return n<2 ?n:fibonacci(n-1)+fibonacci(n-2);
+    }
+    console.log(fibonacci(10))
+</script>
+</body>
+</html>

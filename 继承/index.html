@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        //伪类
+        var Mammal = function(){        //构造器
+            this.species = '动物';
+        };
+        Mammal.prototype.says = function(){
+            return this.saying;
+        };
+        var myCat = new Mammal();     //myCat  继承了Mammal
+        console.log(myCat.species);          //'动物'
+
+        //函数化
+        var mammal = function(spec){     //spec 是对象，这样就构造出了一个含有spec对象的私有属性和方法的新对象
+            var that = {};
+            that.name = function(){
+                return spec.name;
+            };
+            that.saying = function(){
+                return spec.saying || 'miao';
+            };
+            that.color = function(){
+                return '红色'
+            };
+            return that;                //返回that  整个mammal都是一个对象that
+        };
+        var dog = function(spec){       //继承mamal后，又扩充了一下属性
+            var that = mammal(spec);
+            that.color = function(){     //如果这个this换成that  那么color就会一直是黑色， 如果是this，那么就是红色
+                return '黑色'
+            };
+            return that;
+        }
+        var myDog = dog({name:'TOM'});
+        console.log(myDog.name());       //TOM
+        console.log(myDog.color());      //黑色
+        //父类和子类都定义了一个属性的时候---保存子类---用that
+        //父类和子类都定义了一个属性的时候---保存父类---用this
+
+        //Apply 方法
+        function A(x){
+            this.species = '动物';
+            this.x = x;
+        }
+        function B(){
+            A.call(this,1);
+        }
+        var b = new B();     //一定要将B()实例化才行
+        console.log(b.x);
+
+        //原型继承
+        var Fish = {
+            species:'动物'
+        }
+        var myFish = Object.create(Fish)     //创建一个新对象，从Fish来继承
+        console.log(myFish.species)      //动物
+
+    </script>
+</body>
+</html>
