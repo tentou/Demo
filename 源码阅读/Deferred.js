@@ -43,7 +43,7 @@ var Deferred = function(func) {
         func.call(deferred, deferred);
     }
     return deferred;
-}
+};
 
 //when就是一个合集的处理
 //可以收集多个异步操作，合并成功后处理
@@ -74,7 +74,7 @@ var when = function(subordinate /* , ..., subordinateN */ ) {
         }
     }
     return deferred.promise();
-}
+};
 
 //===============================源码解析（上）===================================
 
@@ -111,7 +111,7 @@ function Deferred(){
         promise: function(obj) {
             return obj != null ? jQuery.extend(obj, promise) : promise;
         }
-    }
+    };
 
     //管道接口,API别名
     promise.pipe = promise.then;
@@ -155,12 +155,12 @@ $("button").on("click", function() {
     // 给deferred注册一个成功后的回调通知
     dtd.done(function() {
         $('body').append('<li>Deferred成功</li>')
-    })
+    });
     // 开始执行一段代码
     setTimeout(function() {
         dtd.resolve(); // 改变deferred对象的执行状态
     }, 500);
-})
+});
 
 //===============================源码解析（下）===================================
 

@@ -40,8 +40,8 @@
       <file leaf-file-name="Deferred.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/源码阅读/Deferred.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2104">
-              <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+            <state relative-caret-position="336">
+              <caret line="157" column="6" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="6" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -655,12 +655,20 @@
       <workItem from="1466811992615" duration="43000" />
       <workItem from="1467204769680" duration="160000" />
       <workItem from="1467342007983" duration="695000" />
-      <workItem from="1467724383793" duration="1606000" />
+      <workItem from="1467724383793" duration="2382000" />
     </task>
+    <task id="LOCAL-00001" summary="Deferred源码阅读">
+      <created>1467727461103</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1467727461104</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3810000" />
+    <option name="totallyTimeSpent" value="4586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -703,6 +711,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Deferred源码阅读" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deferred源码阅读" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -742,8 +754,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/源码阅读/Deferred.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2104">
-          <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+        <state relative-caret-position="336">
+          <caret line="157" column="6" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="6" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
