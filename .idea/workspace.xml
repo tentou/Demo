@@ -2,12 +2,924 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26c84b2f-623d-4014-af18-41a0017d5488" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/源码阅读/underscore-1.8.3-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/源码阅读/underscore-1.8.3-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-13/whirly-thing.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/errata/._banner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/errata/._banner.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/errata/banner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/errata/banner.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/images/._ninja-with-nunchuks.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/images/._ninja-with-pole.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/images/._ninja-with-shuriken.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/images/ninja-with-nunchuks.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/images/ninja-with-pole.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/images/ninja-with-shuriken.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/源码阅读/lodash-4.13.1-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/.idea/workspace (smokey.aus.2wire.com's conflicted copy 2012-03-27).xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/.idea/workspace (smokey.aus.2wire.com's conflicted copy 2012-07-25).xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/WEB-INF/._web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-10/listing-10.1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-10/listing-10.2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-10/listing-10.3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-10/listing-10.4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-10/listing-10.5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-10/tmpl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-11/listing-11.1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-11/listing-11.2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-11/listing-11.3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-12/intro-example.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-12/listing-12.1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-12/listing-12.10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-12/listing-12.11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-12/listing-12.12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-12/listing-12.2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-12/listing-12.3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-12/listing-12.4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-12/listing-12.5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-12/listing-12.6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-12/listing-12.7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-12/listing-12.8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-12/listing-12.9.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-13/ajaxy-operation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-13/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-13/event-support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-13/events.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-13/fixup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-13/listing-13.1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-13/listing-13.10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-13/listing-13.11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-13/listing-13.12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-13/listing-13.13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-13/listing-13.14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-13/listing-13.15.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-13/listing-13.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-13/listing-13.3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-13/listing-13.4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-13/listing-13.5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-13/listing-13.6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-13/listing-13.7.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-13/listing-13.8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-13/listing-13.9.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-13/trigger.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-14/getNodes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-14/listing-14.1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-14/listing-14.10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-14/listing-14.12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-14/listing-14.13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-14/listing-14.14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-14/listing-14.2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-14/listing-14.3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-14/listing-14.4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-14/listing-14.6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-14/listing-14.7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-14/listing-14.8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-14/listing-14.9.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-14/root.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-15/figure-5.1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-15/listing-15.1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-15/listing-15.2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-15/listing-15.3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-15/listing-15.5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-15/listing-15.6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-15/listing-15.7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-15/listing-15.8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-2/listing-2.1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-2/listing-2.2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-2/listing-2.3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-2/listing-2.4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-2/listing-2.5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-2/listing-2.6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-2/log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-2/snippet-1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-3/listing-3.1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-3/listing-3.2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-3/listing-3.3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-3/listing-3.4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-3/listing-3.5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-3/listing-3.6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-3/sort-example.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-3/useless.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-4/add-method.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-4/listing-4.1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-4/listing-4.10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-4/listing-4.11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-4/listing-4.12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-4/listing-4.13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-4/listing-4.14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-4/listing-4.16.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-4/listing-4.2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-4/listing-4.3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-4/listing-4.4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-4/listing-4.5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-4/listing-4.6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-4/listing-4.7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-4/listing-4.8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-4/listing-4.9.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-4/palindrome.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-5/listing-5.1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-5/listing-5.10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-5/listing-5.12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-5/listing-5.13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-5/listing-5.14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-5/listing-5.15.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-5/listing-5.16.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-5/listing-5.17.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-5/listing-5.18.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-5/listing-5.2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-5/listing-5.3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-5/listing-5.4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-5/listing-5.5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-5/listing-5.6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-5/listing-5.7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-5/listing-5.8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-5/listing-5.9.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-5/partial.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-5/prototype-curry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-5/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-6/listing-6.1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-6/listing-6.10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-6/listing-6.11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-6/listing-6.12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-6/listing-6.13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-6/listing-6.14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-6/listing-6.15.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-6/listing-6.16.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-6/listing-6.17.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-6/listing-6.18.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-6/listing-6.19.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-6/listing-6.2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-6/listing-6.20.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-6/listing-6.3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-6/listing-6.4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-6/listing-6.5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-6/listing-6.6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-6/listing-6.7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-6/listing-6.8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-6/listing-6.9.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-6/subclass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-7/listing-7.1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-7/listing-7.10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-7/listing-7.11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-7/listing-7.12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-7/listing-7.13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-7/listing-7.14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-7/listing-7.15.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-7/listing-7.16.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-7/listing-7.2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-7/listing-7.3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-7/listing-7.4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-7/listing-7.5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-7/listing-7.6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-7/listing-7.7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-7/listing-7.8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-7/listing-7.9.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-8/delays.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-8/listing-8.1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-8/listing-8.2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-8/listing-8.3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-8/listing-8.4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-8/listing-8.5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-9/gloablEval.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-9/listing-9.1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-9/listing-9.2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-9/listing-9.3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-9/listing-9.4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-9/listing-9.5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-9/listing-9.6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-9/listing-9.7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/chapter-9/listing-9.8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/errata/errata.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/ninja-code.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/scripts/assert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/src/SortExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/忍者秘籍-源码/styles/assert.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5/SSE/SSE.html" afterPath="$PROJECT_DIR$/HTML5/SSE/SSE.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5/Web Worker/worker.html" afterPath="$PROJECT_DIR$/HTML5/Web Worker/worker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/源码阅读/Deferred.js" afterPath="$PROJECT_DIR$/源码阅读/Deferred.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/源码阅读/underscore-1.8.3-cn.js" afterPath="$PROJECT_DIR$/源码阅读/underscore-1.8.3-cn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/源码阅读/underscore-1.8.3-en.js" afterPath="$PROJECT_DIR$/源码阅读/underscore-1.8.3-en.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/AddExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/AddExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/AddExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/AddExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/AddExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/AddExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/AssignmentOperatorsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/AssignmentOperatorsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/BitwiseAndExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/BitwiseAndExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/BitwiseNotExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/BitwiseNotExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/BitwiseOrExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/BitwiseOrExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/BitwiseXorExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/BitwiseXorExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/BooleanExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/BooleanExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/BooleanExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/BooleanExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/BreakStatementExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/BreakStatementExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/BreakStatementExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/BreakStatementExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/ConditionalOperatorExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/ConditionalOperatorExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/ContinueStatementExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/ContinueStatementExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/ContinueStatementExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/ContinueStatementExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/DivideExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/DivideExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/DoWhileStatementExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/DoWhileStatementExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/EqualityOperatorsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/EqualityOperatorsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/EqualityOperatorsExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/EqualityOperatorsExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/EqualityOperatorsExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/EqualityOperatorsExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/ForInStatementExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/ForInStatementExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/ForStatementExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/ForStatementExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/ForStatementExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/ForStatementExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/ForStatementExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/ForStatementExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/ForStatementExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/ForStatementExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/FunctionExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/FunctionExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/FunctionExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/FunctionExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/FunctionExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/FunctionExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/FunctionExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/FunctionExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/FunctionExample05.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/FunctionExample05.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/FunctionExample06.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/FunctionExample06.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/FunctionExample07.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/FunctionExample07.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/FunctionExample08.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/FunctionExample08.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/FunctionExample09.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/FunctionExample09.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/FunctionExample10.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/FunctionExample10.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/IfStatementExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/IfStatementExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/IfStatementExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/IfStatementExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/IncrementDecrementExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/IncrementDecrementExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/IncrementDecrementExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/IncrementDecrementExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/IncrementDecrementExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/IncrementDecrementExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/IncrementDecrementExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/IncrementDecrementExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/LeftShiftExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/LeftShiftExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/LogicalAndExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/LogicalAndExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/LogicalAndExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/LogicalAndExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/LogicalNotExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/LogicalNotExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/LogicalNotExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/LogicalNotExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/LogicalOrExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/LogicalOrExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/LogicalOrExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/LogicalOrExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/ModulusExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/ModulusExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/MultiplyExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/MultiplyExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/NullExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/NullExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/NullExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/NullExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/NumberExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/NumberExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/NumberExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/NumberExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/NumberExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/NumberExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/NumberExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/NumberExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/NumberExample05.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/NumberExample05.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/NumberExample06.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/NumberExample06.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/NumberExample07.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/NumberExample07.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/NumberExample08.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/NumberExample08.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/RelationalOperatorsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/RelationalOperatorsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/SignedRightShiftExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/SignedRightShiftExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/SignedRightShiftExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/SignedRightShiftExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/StringExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/StringExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/StringExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/StringExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/StringExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/StringExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/SubtractExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/SubtractExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/SwitchStatementExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/SwitchStatementExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/SwitchStatementExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/SwitchStatementExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/SwitchStatementExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/SwitchStatementExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/SwitchStatementExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/SwitchStatementExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/TypeofExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/TypeofExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/UnaryPlusMinusExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/UnaryPlusMinusExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/UnaryPlusMinusExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/UnaryPlusMinusExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/UndefinedExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/UndefinedExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/UndefinedExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/UndefinedExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/UndefinedExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/UndefinedExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/UndefinedExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/UndefinedExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/UnsignedRightShiftExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/UnsignedRightShiftExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/UnsignedRightShiftExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/UnsignedRightShiftExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/WhileStatementExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/WhileStatementExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch03/WithStatementExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch03/WithStatementExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch04/DeterminingTypeExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch04/DeterminingTypeExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch04/DynamicPropertiesExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch04/DynamicPropertiesExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch04/DynamicPropertiesExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch04/DynamicPropertiesExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch04/ExecutionContextExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch04/ExecutionContextExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch04/ExecutionContextExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch04/ExecutionContextExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch04/ExecutionContextExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch04/ExecutionContextExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch04/ExecutionContextExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch04/ExecutionContextExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch04/ExecutionContextExample05.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch04/ExecutionContextExample05.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch04/ExecutionContextExample06.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch04/ExecutionContextExample06.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch04/ExecutionContextExample07.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch04/ExecutionContextExample07.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch04/FunctionArgumentsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch04/FunctionArgumentsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch04/FunctionArgumentsExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch04/FunctionArgumentsExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayEveryAndSomeExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayEveryAndSomeExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayFilterExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayFilterExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayIndexOfExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayIndexOfExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayMapExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayMapExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayReductionExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayReductionExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayTypeConcatExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayTypeConcatExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayTypeExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayTypeExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayTypeExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayTypeExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayTypeExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayTypeExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayTypeExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayTypeExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayTypeExample05.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayTypeExample05.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayTypeExample06.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayTypeExample06.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayTypeExample07.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayTypeExample07.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayTypeExample08.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayTypeExample08.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayTypeExample09.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayTypeExample09.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayTypeExample10.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayTypeExample10.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayTypeExample11.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayTypeExample11.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayTypeExample12.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayTypeExample12.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayTypeExample13.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayTypeExample13.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayTypeExample14.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayTypeExample14.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayTypeExample15.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayTypeExample15.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayTypeExample16.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayTypeExample16.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayTypeJoinExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayTypeJoinExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayTypeSliceExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayTypeSliceExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ArrayTypeSpliceExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ArrayTypeSpliceExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/BooleanTypeExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/BooleanTypeExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/DateNowExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/DateNowExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/DateTypeConstructorExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/DateTypeConstructorExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/DateTypeExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/DateTypeExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/DateTypeUTCExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/DateTypeUTCExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/DateTypeValueOfExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/DateTypeValueOfExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/DetectingArraysExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/DetectingArraysExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/FunctionAsAnArgumentExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/FunctionAsAnArgumentExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/FunctionDeclarationExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/FunctionDeclarationExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/FunctionInitializationExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/FunctionInitializationExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/FunctionReturningFunctionExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/FunctionReturningFunctionExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/FunctionTypeApplyMethodExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/FunctionTypeApplyMethodExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/FunctionTypeArgumentsCallerExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/FunctionTypeArgumentsCallerExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/FunctionTypeArgumentsCallerExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/FunctionTypeArgumentsCallerExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/FunctionTypeArgumentsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/FunctionTypeArgumentsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/FunctionTypeBindMethodExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/FunctionTypeBindMethodExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/FunctionTypeCallExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/FunctionTypeCallExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/FunctionTypeCallMethodExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/FunctionTypeCallMethodExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/FunctionTypeExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/FunctionTypeExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/FunctionTypeLengthPropertyExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/FunctionTypeLengthPropertyExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/FunctionTypeThisExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/FunctionTypeThisExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/GlobalObjectURIDecodingExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/GlobalObjectURIDecodingExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/GlobalObjectURIEncodingExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/GlobalObjectURIEncodingExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/GlobalObjectWindowExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/GlobalObjectWindowExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/MathObjectMinMaxExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/MathObjectMinMaxExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/MathObjectRandomExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/MathObjectRandomExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/MathObjectRandomExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/MathObjectRandomExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/MathObjectRandomExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/MathObjectRandomExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/MathObjectRoundingExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/MathObjectRoundingExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/NumberTypeExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/NumberTypeExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ObjectTypeExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ObjectTypeExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ObjectTypeExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ObjectTypeExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ObjectTypeExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ObjectTypeExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/ObjectTypeExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/ObjectTypeExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/RegExpConstructorPropertiesExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/RegExpConstructorPropertiesExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/RegExpConstructorPropertiesExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/RegExpConstructorPropertiesExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/RegExpConstructorPropertiesExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/RegExpConstructorPropertiesExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/RegExpExecExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/RegExpExecExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/RegExpExecExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/RegExpExecExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/RegExpInstancePropertiesExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/RegExpInstancePropertiesExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/RegExpTestExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/RegExpTestExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/RegExpToStringExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/RegExpToStringExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/StringTypeCaseMethodExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/StringTypeCaseMethodExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/StringTypeExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/StringTypeExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/StringTypeFromCharCodeExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/StringTypeFromCharCodeExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/StringTypeLocaleCompareExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/StringTypeLocaleCompareExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/StringTypeLocationMethodsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/StringTypeLocationMethodsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/StringTypeLocationMethodsExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/StringTypeLocationMethodsExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/StringTypeManipulationMethodsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/StringTypeManipulationMethodsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch05/StringTypePatternMatchingExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch05/StringTypePatternMatchingExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/AccessorPropertiesExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/AccessorPropertiesExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/AccessorPropertiesExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/AccessorPropertiesExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/CombinationInheritanceExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/CombinationInheritanceExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/ConstructorPatternExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/ConstructorPatternExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/ConstructorPatternExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/ConstructorPatternExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/ConstructorPatternExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/ConstructorPatternExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/ConstructorStealingExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/ConstructorStealingExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/ConstructorStealingExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/ConstructorStealingExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/CreatingObjectsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/CreatingObjectsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/DataPropertiesExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/DataPropertiesExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/DataPropertiesExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/DataPropertiesExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/DataPropertiesExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/DataPropertiesExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/DynamicPrototypeExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/DynamicPrototypeExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/FactoryPatternExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/FactoryPatternExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/GetPropertyDescriptorExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/GetPropertyDescriptorExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/HybridFactoryPatternExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/HybridFactoryPatternExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/HybridFactoryPatternExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/HybridFactoryPatternExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/HybridPatternExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/HybridPatternExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/MultiplePropertiesExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/MultiplePropertiesExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/ObjectKeysExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/ObjectKeysExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/ObjectPropertyNamesExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/ObjectPropertyNamesExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/ParasiticCombinationInheritanceExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/ParasiticCombinationInheritanceExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/PrototypalInheritanceExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/PrototypalInheritanceExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/PrototypalInheritanceExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/PrototypalInheritanceExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/PrototypalInheritanceExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/PrototypalInheritanceExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/PrototypeChainingExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/PrototypeChainingExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/PrototypeChainingExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/PrototypeChainingExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/PrototypeChainingExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/PrototypeChainingExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/PrototypeChainingExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/PrototypeChainingExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/PrototypePatternExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/PrototypePatternExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/PrototypePatternExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/PrototypePatternExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/PrototypePatternExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/PrototypePatternExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/PrototypePatternExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/PrototypePatternExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/PrototypePatternExample05.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/PrototypePatternExample05.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/PrototypePatternExample06.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/PrototypePatternExample06.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/PrototypePatternExample07.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/PrototypePatternExample07.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/PrototypePatternExample08.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/PrototypePatternExample08.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/PrototypePatternExample09.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/PrototypePatternExample09.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/PrototypePatternExample10.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/PrototypePatternExample10.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/PrototypePatternExample11.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/PrototypePatternExample11.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch06/PrototypePatternExample12.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch06/PrototypePatternExample12.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch07/BlockScopeExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch07/BlockScopeExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch07/BlockScopeExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch07/BlockScopeExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch07/BlockScopeExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch07/BlockScopeExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch07/ClosureExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch07/ClosureExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch07/ClosureExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch07/ClosureExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch07/FunctionDeclarationHoisting01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch07/FunctionDeclarationHoisting01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch07/FunctionDeclarationsErrorExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch07/FunctionDeclarationsErrorExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch07/FunctionNameExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch07/FunctionNameExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch07/ModuleAugmentationPatternExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch07/ModuleAugmentationPatternExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch07/ModulePatternExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch07/ModulePatternExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch07/PrivilegedMethodExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch07/PrivilegedMethodExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch07/PrivilegedMethodExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch07/PrivilegedMethodExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch07/RecursionExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch07/RecursionExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch07/RecursionExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch07/RecursionExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch07/ThisObjectExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch07/ThisObjectExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch07/ThisObjectExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch07/ThisObjectExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch07/ThisObjectExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch07/ThisObjectExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/DeleteOperatorExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/DeleteOperatorExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/FramesetExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/FramesetExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/IntervalExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/IntervalExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/IntervalExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/IntervalExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/LocationExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/LocationExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/LocationReplaceExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/LocationReplaceExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/PluginDetectionExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/PluginDetectionExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/PluginDetectionExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/PluginDetectionExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/PluginDetectionExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/PluginDetectionExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/PopupBlockerExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/PopupBlockerExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/SystemDialogExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/SystemDialogExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/SystemDialogExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/SystemDialogExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/SystemDialogExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/SystemDialogExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/TimeoutExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/TimeoutExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/TimeoutExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/TimeoutExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/TimeoutExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/TimeoutExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/WindowOpenExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/WindowOpenExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/WindowOpenExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/WindowOpenExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/WindowPositionExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/WindowPositionExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/WindowPositionExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/WindowPositionExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/WindowSizeExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/WindowSizeExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/WindowSizeExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/WindowSizeExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/anotherframe.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/anotherframe.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/anotherframeset.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/anotherframeset.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/blue.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/blue.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/frame.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/frame.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/frameset1.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/frameset1.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/red.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/red.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch08/yetanotherframe.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch08/yetanotherframe.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch09/CapabilitiesDetectionExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch09/CapabilitiesDetectionExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch09/QuirksDetectionExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch09/QuirksDetectionExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch09/UserAgentDetectionExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch09/UserAgentDetectionExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch09/client.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch09/client.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/AttrExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/AttrExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/CDataSectionNodeExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/CDataSectionNodeExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/CommentNodeExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/CommentNodeExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/CreateElementExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/CreateElementExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/DocumentFragmentExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/DocumentFragmentExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/DocumentWriteExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/DocumentWriteExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/DocumentWriteExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/DocumentWriteExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/DocumentWriteExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/DocumentWriteExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/DocumentWriteExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/DocumentWriteExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/DynamicScriptExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/DynamicScriptExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/DynamicScriptExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/DynamicScriptExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/DynamicStyleExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/DynamicStyleExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/DynamicStyleExample2.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/DynamicStyleExample2.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/ElementAttributesExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/ElementAttributesExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/ElementAttributesExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/ElementAttributesExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/ElementAttributesExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/ElementAttributesExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/ElementAttributesExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/ElementAttributesExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/ElementChildrenExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/ElementChildrenExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/ElementChildrenExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/ElementChildrenExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/GetElementByIdExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/GetElementByIdExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/GetElementByIdExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/GetElementByIdExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/GetElementByIdExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/GetElementByIdExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/GetElementByIdExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/GetElementByIdExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/GetElementsByNameExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/GetElementsByNameExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/GetElementsByTagNameExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/GetElementsByTagNameExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/HTMLElementsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/HTMLElementsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/TextNodeExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/TextNodeExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/TextNodeExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/TextNodeExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/TextNodeExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/TextNodeExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/TextNodeExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/TextNodeExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/TextNodeExample05.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/TextNodeExample05.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/TextNodeExample06.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/TextNodeExample06.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch10/client.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch10/client.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/ClassListExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/ClassListExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/CompareDocumentPositionExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/CompareDocumentPositionExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/ContainsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/ContainsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/ContainsExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/ContainsExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/ElementChildrenExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/ElementChildrenExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/ElementTraversalExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/ElementTraversalExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/GetElementsByClassNameExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/GetElementsByClassNameExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/InnerHtmlExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/InnerHtmlExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/InnerHtmlExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/InnerHtmlExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/InnerHtmlExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/InnerHtmlExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/InnerHtmlExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/InnerHtmlExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/InnerTextExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/InnerTextExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/InnerTextExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/InnerTextExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/InnerTextExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/InnerTextExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/InnerTextExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/InnerTextExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/InnerTextExample05.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/InnerTextExample05.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/InsertAdjacentHtmlExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/InsertAdjacentHtmlExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/OuterHTMLExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/OuterHTMLExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/OuterTextExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/OuterTextExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/OuterTextExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/OuterTextExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/SelectorsAPIExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/SelectorsAPIExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/SelectorsAPIExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/SelectorsAPIExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/SelectorsAPIExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/SelectorsAPIExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/TextContentExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/TextContentExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/TextContentExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/TextContentExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/TextContentExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/TextContentExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/TextContentExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/TextContentExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch11/client.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch11/client.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/CSSRulesExample.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/CSSRulesExample.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/CSSRulesExample2.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/CSSRulesExample2.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/ComputedStylesExample.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/ComputedStylesExample.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/CreateDocumentExample.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/CreateDocumentExample.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/CreateHTMLDocumentExample.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/CreateHTMLDocumentExample.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/DOMRangeExample.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/DOMRangeExample.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/DOMRangeExample2.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/DOMRangeExample2.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/DOMRangeExample3.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/DOMRangeExample3.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/DOMRangeExample4.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/DOMRangeExample4.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/DOMRangeExample5.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/DOMRangeExample5.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/DOMRangeExample6.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/DOMRangeExample6.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/DOMRangeExample7.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/DOMRangeExample7.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/DOMRangeExample8.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/DOMRangeExample8.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/DOMRangeExample9.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/DOMRangeExample9.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/DOMStyleObjectExample.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/DOMStyleObjectExample.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/DocumentTypeExample.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/DocumentTypeExample.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/GetBoundingClientRectExample.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/GetBoundingClientRectExample.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/IEComputedStylesExample.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/IEComputedStylesExample.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/IERangeExample.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/IERangeExample.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/IERangeExample1.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/IERangeExample1.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/IERangeExample2.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/IERangeExample2.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/IERangeExample3.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/IERangeExample3.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/IERangeExample4.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/IERangeExample4.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/IERangeExample5.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/IERangeExample5.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/IERangeExample6.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/IERangeExample6.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/IFrameElementExample.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/IFrameElementExample.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/IFrameElementExample2.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/IFrameElementExample2.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/IFrameElementExample3.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/IFrameElementExample3.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/NamespaceExample.xml" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/NamespaceExample.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/NodeIteratorExample1.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/NodeIteratorExample1.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/NodeIteratorExample2.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/NodeIteratorExample2.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/OffsetDimensionsExample.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/OffsetDimensionsExample.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/ScrollDimensionsExample.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/ScrollDimensionsExample.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/StyleObjectExample.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/StyleObjectExample.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/StyleSheetsExample.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/StyleSheetsExample.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/StyleSheetsExample2.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/StyleSheetsExample2.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/TreeWalkerExample1.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/TreeWalkerExample1.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/TreeWalkerExample2.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/TreeWalkerExample2.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/UserDataExample.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/UserDataExample.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/stylesheet1.css" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/stylesheet1.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch12/stylesheet2.css" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch12/stylesheet2.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/BeforeUnloadEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/BeforeUnloadEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/ButtonExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/ButtonExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/ClientCoordinatesExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/ClientCoordinatesExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/CompositionEventsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/CompositionEventsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/ContextMenuEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/ContextMenuEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/CrossBrowserEventHandlerExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/CrossBrowserEventHandlerExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/CrossBrowserEventObjectExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/CrossBrowserEventObjectExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/CrossBrowserEventObjectExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/CrossBrowserEventObjectExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/CrossBrowserEventObjectExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/CrossBrowserEventObjectExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/CrossBrowserMouseWheelEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/CrossBrowserMouseWheelEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/DOMContentLoadedEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/DOMContentLoadedEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/DOMEventFlowExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/DOMEventFlowExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/DOMEventObjectExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/DOMEventObjectExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/DOMEventObjectExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/DOMEventObjectExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/DOMEventObjectExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/DOMEventObjectExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/DOMEventObjectExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/DOMEventObjectExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/DOMEventObjectExample05.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/DOMEventObjectExample05.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/DOMEventObjectExample06.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/DOMEventObjectExample06.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/DOMLevel0EventHandlerExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/DOMLevel0EventHandlerExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/DOMLevel2EventHandlerExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/DOMLevel2EventHandlerExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/DOMLevel2EventHandlerExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/DOMLevel2EventHandlerExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/DOMLevel3KeyPropertyExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/DOMLevel3KeyPropertyExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/DOMLevel3LocationGetModifierStateExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/DOMLevel3LocationGetModifierStateExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/DOMLevel3LocationPropertyExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/DOMLevel3LocationPropertyExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/DOMMouseScrollEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/DOMMouseScrollEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/DOMSubtreeModifiedEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/DOMSubtreeModifiedEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/DeviceMotionEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/DeviceMotionEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/DeviceOrientationEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/DeviceOrientationEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/DoubleClickExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/DoubleClickExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/EventBubblingExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/EventBubblingExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/EventCapturingExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/EventCapturingExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/EventDelegationExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/EventDelegationExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/EventUtil.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/EventUtil.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/GestureEventsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/GestureEventsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/HTMLEventHandlerExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/HTMLEventHandlerExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/HTMLEventHandlerExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/HTMLEventHandlerExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/HTMLEventHandlerExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/HTMLEventHandlerExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/HTMLEventHandlerExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/HTMLEventHandlerExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/HashChangeEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/HashChangeEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/IEEventHandlerExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/IEEventHandlerExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/IEEventHandlerExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/IEEventHandlerExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/IEEventObjectExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/IEEventObjectExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/IEEventObjectExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/IEEventObjectExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/IEEventObjectExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/IEEventObjectExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/KeyDownEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/KeyDownEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/KeyPressEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/KeyPressEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/KeyUpEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/KeyUpEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/KeyboardEventsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/KeyboardEventsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/LoadEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/LoadEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/LoadEventExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/LoadEventExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/LoadEventExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/LoadEventExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/LoadEventExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/LoadEventExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/LoadEventExample05.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/LoadEventExample05.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/LoadEventExample06.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/LoadEventExample06.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/LoadEventExample07.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/LoadEventExample07.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/ModifierKeysExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/ModifierKeysExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/MouseWheelEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/MouseWheelEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/MozAfterPaintExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/MozAfterPaintExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/MozOrientationEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/MozOrientationEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/NodeInsertionEventsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/NodeInsertionEventsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/NodeRemovalEventsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/NodeRemovalEventsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/OrientationChangeEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/OrientationChangeEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/PageCoordinatesExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/PageCoordinatesExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/PageShowEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/PageShowEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/ReadyStateChangeEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/ReadyStateChangeEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/ReadyStateChangeEventExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/ReadyStateChangeEventExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/RelatedElementsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/RelatedElementsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/ResizeEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/ResizeEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/ScreenCoordinatesExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/ScreenCoordinatesExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/ScrollEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/ScrollEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/SimulateDOMClickExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/SimulateDOMClickExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/SimulateDOMCustomEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/SimulateDOMCustomEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/SimulateDOMKeyEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/SimulateDOMKeyEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/SimulateFFKeyEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/SimulateFFKeyEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/SimulateIEClickExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/SimulateIEClickExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/SimulateIEKeyEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/SimulateIEKeyEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/TextChangeEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/TextChangeEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/TextInputEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/TextInputEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/TouchEventsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/TouchEventsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/UIEventsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/UIEventsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/UnloadEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/UnloadEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/client.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/client.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/example.css" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/example.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/example.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/example.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch13/smile.gif" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch13/smile.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/ContentEditableExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/ContentEditableExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/EventUtil.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/EventUtil.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/FocusExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/FocusExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/FormFieldEventsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/FormFieldEventsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/FormFieldsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/FormFieldsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/FormFieldsExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/FormFieldsExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/FormResetExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/FormResetExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/FormSerializationExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/FormSerializationExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/FormSubmissionExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/FormSubmissionExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/InputFieldEmailValidationExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/InputFieldEmailValidationExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/InputFieldPatternValidationExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/InputFieldPatternValidationExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/RequiredFieldExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/RequiredFieldExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/RichTextEditingExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/RichTextEditingExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/SelectEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/SelectEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/SelectboxExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/SelectboxExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/SelectboxExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/SelectboxExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/SelectboxExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/SelectboxExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/SelectboxExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/SelectboxExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/SelectboxExample05.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/SelectboxExample05.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/SelectboxExample06.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/SelectboxExample06.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/TextboxClipboardExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/TextboxClipboardExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/TextboxGetSelectedTextExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/TextboxGetSelectedTextExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/TextboxInputFilteringExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/TextboxInputFilteringExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/TextboxPartialSelectionExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/TextboxPartialSelectionExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/TextboxSelectExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/TextboxSelectExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/TextboxTabForwardExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/TextboxTabForwardExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/blank.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/blank.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch14/client.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch14/client.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/2DClearRectExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/2DClearRectExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/2DDataUrlExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/2DDataUrlExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/2DDrawImageExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/2DDrawImageExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/2DFillRectExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/2DFillRectExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/2DFillRectGradientExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/2DFillRectGradientExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/2DFillRectGradientExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/2DFillRectGradientExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/2DFillRectGradientExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/2DFillRectGradientExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/2DFillRectGradientExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/2DFillRectGradientExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/2DFillRectPatternExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/2DFillRectPatternExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/2DFillRectShadowExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/2DFillRectShadowExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/2DGlobalAlphaExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/2DGlobalAlphaExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/2DGlobalCompositeOperationExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/2DGlobalCompositeOperationExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/2DImageDataExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/2DImageDataExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/2DPathExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/2DPathExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/2DSaveRestoreExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/2DSaveRestoreExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/2DStrokeRectExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/2DStrokeRectExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/2DStrokeRectShadowExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/2DStrokeRectShadowExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/2DTextExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/2DTextExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/2DTextExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/2DTextExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/2DTextExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/2DTextExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/2DTextExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/2DTextExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/2DTransformExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/2DTransformExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/DataViewExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/DataViewExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/DataViewExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/DataViewExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/TypedViewByteLimitExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/TypedViewByteLimitExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/WebGLExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/WebGLExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/WebGLExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/WebGLExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/smile.gif" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/smile.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch15/smile2.gif" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch15/smile2.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch16/AudioPlayerExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch16/AudioPlayerExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch16/CrossDocumentMessagingExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch16/CrossDocumentMessagingExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch16/CrossDocumentMessagingExample01Inner.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch16/CrossDocumentMessagingExample01Inner.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch16/CustomDraggableExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch16/CustomDraggableExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch16/DataTransferExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch16/DataTransferExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch16/DragAndDropExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch16/DragAndDropExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch16/DragAndDropExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch16/DragAndDropExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch16/DragAndDropExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch16/DragAndDropExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch16/DragAndDropExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch16/DragAndDropExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch16/DropEffectAndEffectAllowedExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch16/DropEffectAndEffectAllowedExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch16/EventUtil.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch16/EventUtil.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch16/HistoryStateManagementExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch16/HistoryStateManagementExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch16/SetDragImageExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch16/SetDragImageExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch16/VideoPlayerExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch16/VideoPlayerExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch16/billyBrowsers.ogg" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch16/billyBrowsers.ogg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch16/smile.gif" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch16/smile.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch17/AssertExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch17/AssertExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch17/CommunicationErrorExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch17/CommunicationErrorExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch17/ConsoleLoggingExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch17/ConsoleLoggingExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch17/EventUtil.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch17/EventUtil.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch17/InvalidCharacterExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch17/InvalidCharacterExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch17/InvalidCharacterExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch17/InvalidCharacterExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch17/LongURLErrorExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch17/LongURLErrorExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch17/OnErrorExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch17/OnErrorExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch17/OnErrorExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch17/OnErrorExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch17/OperationAbortedExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch17/OperationAbortedExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch17/OperationAbortedExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch17/OperationAbortedExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch17/OperationAbortedExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch17/OperationAbortedExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch17/PageLoggingExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch17/PageLoggingExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch17/ThrowingErrorsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch17/ThrowingErrorsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch17/ThrowingErrorsExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch17/ThrowingErrorsExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch17/TryCatchExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch17/TryCatchExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch17/TryCatchExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch17/TryCatchExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch17/nonscript.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch17/nonscript.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch17/smile.gif" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch17/smile.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/CrossBrowserXPathExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/CrossBrowserXPathExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/CrossBrowserXPathExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/CrossBrowserXPathExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/CrossBrowserXmlExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/CrossBrowserXmlExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/CrossBrowserXmlExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/CrossBrowserXmlExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/CrossBrowserXsltExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/CrossBrowserXsltExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/DOMLevel2CoreExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/DOMLevel2CoreExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/DOMLevel3LoadSaveExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/DOMLevel3LoadSaveExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/DOMLevel3LoadSaveExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/DOMLevel3LoadSaveExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/DOMLevel3LoadSaveExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/DOMLevel3LoadSaveExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/DOMLevel3LoadSaveExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/DOMLevel3LoadSaveExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/DOMLevel3LoadSaveExample05.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/DOMLevel3LoadSaveExample05.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/DOMLevel3LoadSaveExample06.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/DOMLevel3LoadSaveExample06.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/DOMLevel3LoadSaveExample07.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/DOMLevel3LoadSaveExample07.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/DOMLevel3LoadSaveExample08.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/DOMLevel3LoadSaveExample08.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/DOMParserExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/DOMParserExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/DOMParserExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/DOMParserExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/DomXPathExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/DomXPathExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/DomXPathExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/DomXPathExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/DomXPathExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/DomXPathExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/DomXPathExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/DomXPathExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/DomXPathExample05.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/DomXPathExample05.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/DomXPathExample06.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/DomXPathExample06.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/DomXPathExample07.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/DomXPathExample07.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/DomXPathExample08.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/DomXPathExample08.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/IEXPathExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/IEXPathExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/IEXPathExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/IEXPathExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/IEXPathExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/IEXPathExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/IEXmlDomExample.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/IEXmlDomExample.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/IEXmlDomExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/IEXmlDomExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/IEXmlDomExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/IEXmlDomExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/IEXmlDomExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/IEXmlDomExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/IEXmlDomExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/IEXmlDomExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/IEXmlDomExample2.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/IEXmlDomExample2.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/IEXmlDomExample3.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/IEXmlDomExample3.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/IEXsltExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/IEXsltExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/IEXsltExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/IEXsltExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/IEXsltExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/IEXsltExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/IEXsltExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/IEXsltExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/IEXsltExample05.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/IEXsltExample05.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/XMLSerializerExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/XMLSerializerExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/XsltProcessorExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/XsltProcessorExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/XsltProcessorExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/XsltProcessorExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/XsltProcessorExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/XsltProcessorExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/XsltProcessorExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/XsltProcessorExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/employees.xml" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/employees.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/employees.xslt" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/employees.xslt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/employees2.xslt" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/employees2.xslt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/employees3.xslt" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/employees3.xslt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/employees4.xslt" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/employees4.xslt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch18/example.xml" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch18/example.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch19/AttributesExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch19/AttributesExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch19/ForEachInExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch19/ForEachInExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch19/NamespaceExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch19/NamespaceExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch19/NamespaceTypeExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch19/NamespaceTypeExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch19/NamespaceTypeExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch19/NamespaceTypeExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch19/NodeKindExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch19/NodeKindExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch19/ParsingAndSerializationExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch19/ParsingAndSerializationExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch19/QNameTypeExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch19/QNameTypeExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch19/QNameTypeExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch19/QNameTypeExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch19/QueryingExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch19/QueryingExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch19/UsageExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch19/UsageExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch19/UsageExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch19/UsageExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch19/XMLConstructionExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch19/XMLConstructionExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch19/XMLConstructionExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch19/XMLConstructionExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch19/XMLConstructionExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch19/XMLConstructionExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch19/XMLListTypeExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch19/XMLListTypeExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch19/XMLListTypeExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch19/XMLListTypeExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch19/XMLTypeExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch19/XMLTypeExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch20/JSONObjectExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch20/JSONObjectExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch20/JSONParseExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch20/JSONParseExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch20/JSONParseExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch20/JSONParseExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch20/JSONStringifyExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch20/JSONStringifyExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch20/JSONStringifyExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch20/JSONStringifyExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch20/JSONStringifyExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch20/JSONStringifyExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch20/JSONStringifyExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch20/JSONStringifyExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch20/JSONStringifyExample05.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch20/JSONStringifyExample05.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/026694 Ch21code.zip" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/026694 Ch21code.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/CrossBrowserCORSRequestExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/CrossBrowserCORSRequestExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/HTTPStreamingExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/HTTPStreamingExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/ImagePingExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/ImagePingExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/JSONPExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/JSONPExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/XDomainRequestExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/XDomainRequestExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/XHRAlternateEventsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/XHRAlternateEventsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/XHRAsyncExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/XHRAsyncExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/XHRErrorEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/XHRErrorEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/XHRExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/XHRExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/XHRFormDataExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/XHRFormDataExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/XHRLoadEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/XHRLoadEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/XHRPostExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/XHRPostExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/XHRProgressEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/XHRProgressEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/XHRRequestHeadersExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/XHRRequestHeadersExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/XHRResponseHeadersExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/XHRResponseHeadersExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/XHRTimeoutExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/XHRTimeoutExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/addcontact.php" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/addcontact.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/addressbook.php" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/addressbook.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/altevents.php" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/altevents.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/example.php" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/example.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/example.txt" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/example.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/postexample.php" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/postexample.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/timeout.php" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/timeout.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch21/xdr.php" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch21/xdr.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/ArrayChunkingExample.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/ArrayChunkingExample.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/DragAndDropExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/DragAndDropExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/DragAndDropExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/DragAndDropExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/DragAndDropExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/DragAndDropExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/DragAndDropExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/DragAndDropExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/EventTarget.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/EventTarget.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/EventTargetExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/EventTargetExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/EventTargetExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/EventTargetExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/EventUtil.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/EventUtil.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/FrozenObjectsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/FrozenObjectsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/FrozenObjectsExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/FrozenObjectsExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/FunctionBindingExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/FunctionBindingExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/FunctionBindingExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/FunctionBindingExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/FunctionCurryingExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/FunctionCurryingExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/FunctionCurryingExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/FunctionCurryingExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/FunctionCurryingExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/FunctionCurryingExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/LazyLoadingExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/LazyLoadingExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/LazyLoadingExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/LazyLoadingExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/NonExtensibleObjectsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/NonExtensibleObjectsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/NonExtensibleObjectsExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/NonExtensibleObjectsExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/RepeatingTimersExample.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/RepeatingTimersExample.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/ScopeSafeConstructorsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/ScopeSafeConstructorsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/ScopeSafeConstructorsExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/ScopeSafeConstructorsExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/ScopeSafeConstructorsExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/ScopeSafeConstructorsExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/ScopeSafeConstructorsExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/ScopeSafeConstructorsExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/SealedObjectsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/SealedObjectsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/SealedObjectsExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/SealedObjectsExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/ThrottlingExample.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/ThrottlingExample.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch22/client.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch22/client.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch23/CookieUtil.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch23/CookieUtil.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch23/CookiesExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch23/CookiesExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch23/EventUtil.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch23/EventUtil.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch23/GlobalAndLocalStorageExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch23/GlobalAndLocalStorageExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch23/GlobalStorageExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch23/GlobalStorageExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch23/IndexedDBExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch23/IndexedDBExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch23/IndexedDBExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch23/IndexedDBExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch23/IndexedDBExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch23/IndexedDBExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch23/IndexedDBExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch23/IndexedDBExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch23/IndexedDBExample05.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch23/IndexedDBExample05.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch23/LocalStorageExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch23/LocalStorageExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch23/OnLineExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch23/OnLineExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch23/OnlineEventsExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch23/OnlineEventsExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch23/SessionStorageExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch23/SessionStorageExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch23/StorageEventExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch23/StorageEventExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch23/SubCookieUtil.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch23/SubCookieUtil.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch23/SubCookiesExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch23/SubCookiesExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch23/UserDataExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch23/UserDataExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch23/client.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch23/client.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch24/SampleAntDir/build.xml" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch24/SampleAntDir/build.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch24/SampleAntDir/dev/src/js/a.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch24/SampleAntDir/dev/src/js/a.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch24/SampleAntDir/dev/src/js/aa.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch24/SampleAntDir/dev/src/js/aa.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch24/SampleAntDir/dev/src/js/ab.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch24/SampleAntDir/dev/src/js/ab.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch24/SampleAntDir/dev/src/js/b.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch24/SampleAntDir/dev/src/js/b.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch24/SampleAntDir/dev/src/js/c.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch24/SampleAntDir/dev/src/js/c.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch24/SampleAntDir/js/output-min.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch24/SampleAntDir/js/output-min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch24/SampleAntDir/js/output.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch24/SampleAntDir/js/output.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch24/SampleAntDir/readme.txt" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch24/SampleAntDir/readme.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch25/EventUtil.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch25/EventUtil.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch25/FileAPIExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch25/FileAPIExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch25/FileAPIExample02.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch25/FileAPIExample02.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch25/FileAPIExample03.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch25/FileAPIExample03.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch25/FileAPIExample04.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch25/FileAPIExample04.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch25/FileAPIExample05.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch25/FileAPIExample05.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch25/FileAPIExample06.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch25/FileAPIExample06.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch25/FileAPIExample06Upload.php" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch25/FileAPIExample06Upload.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch25/GeolocationExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch25/GeolocationExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch25/PageVisibilityAPIExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch25/PageVisibilityAPIExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch25/WebWorkerExample01.htm" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch25/WebWorkerExample01.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch25/WebWorkerExample01.js" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch25/WebWorkerExample01.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/Ch25/smile.gif" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/Ch25/smile.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/高程/源代码/readme.txt" afterPath="$PROJECT_DIR$/读书/高级程序设计-源代码/readme.txt" />
     </list>
     <ignored path="Demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,7 +932,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -30,26 +941,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="underscore-1.8.3-en.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-en.js">
+      <file leaf-file-name="SortExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/读书/忍者秘籍-源码/src/SortExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="underscore-1.8.3-cn.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-cn.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="59" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="59" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,6 +974,7 @@
         <option value="$PROJECT_DIR$/源码阅读/Deferred.js" />
         <option value="$PROJECT_DIR$/源码阅读/Underscore.js" />
         <option value="$PROJECT_DIR$/源码阅读/underscore-1.8.3-cn.js" />
+        <option value="$PROJECT_DIR$/源码阅读/underscore-1.8.3-en.js" />
       </list>
     </option>
   </component>
@@ -87,10 +985,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="26" />
+    <option name="y" value="67" />
+    <option name="width" value="1368" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -117,9 +1015,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -148,71 +1046,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="组件练习" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="组件练习" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="点击展开导航" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="组件练习" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="源码阅读" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="封装" />
+              <option name="myItemId" value="读书" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -223,11 +1057,13 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/360云盘/Blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Demo\读书" />
       <recent name="D:\Demo\源码阅读" />
     </key>
   </component>
@@ -251,11 +1087,19 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <method />
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
@@ -271,9 +1115,17 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <method />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -355,6 +1207,9 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
@@ -680,6 +1535,11 @@
       <workItem from="1467724383793" duration="2382000" />
       <workItem from="1467770338803" duration="3689000" />
       <workItem from="1467786651445" duration="726000" />
+      <workItem from="1467807852309" duration="1542000" />
+      <workItem from="1467819481602" duration="607000" />
+      <workItem from="1467858307086" duration="1508000" />
+      <workItem from="1467878784085" duration="27394000" />
+      <workItem from="1468854528227" duration="1862000" />
     </task>
     <task id="LOCAL-00001" summary="Deferred源码阅读">
       <created>1467727461103</created>
@@ -692,7 +1552,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9001000" />
+    <option name="totallyTimeSpent" value="41914000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -704,7 +1564,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="26" y="67" width="1368" height="735" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -713,24 +1573,24 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21331316" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20488165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -746,11 +1606,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Deferred源码阅读" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deferred源码阅读" />
+    <MESSAGE value="add忍者秘籍源码" />
+    <option name="LAST_COMMIT_MESSAGE" value="add忍者秘籍源码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-en.js">
@@ -765,11 +1630,115 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-cn.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="59" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="59" />
+        <state relative-caret-position="2244">
+          <caret line="132" column="81" selection-start-line="132" selection-start-column="81" selection-end-line="132" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-en.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-cn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="59" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-en.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/源码阅读/lodash-4.13.1-en.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-cn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="59" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-en.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/源码阅读/lodash-4.13.1-en.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-cn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="59" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-en.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-cn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="59" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-en.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-cn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="59" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -777,7 +1746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,7 +1760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,7 +1767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,7 +1774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -818,7 +1783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-561">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,37 +1800,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/lodash/dist/lodash.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="5861" column="13" selection-start-line="5861" selection-start-column="13" selection-end-line="5861" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/lodash/dist/lodash.underscore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="4249" column="11" selection-start-line="4249" selection-start-column="11" selection-end-line="4249" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/lodash/lodash.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6228" column="13" selection-start-line="6228" selection-start-column="13" selection-end-line="6228" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/lodash/dist/lodash.compat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6211" column="13" selection-start-line="6211" selection-start-column="13" selection-end-line="6211" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/源码阅读/lodash-4.13.1-en.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
-          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <caret line="8132" column="4" selection-start-line="8132" selection-start-column="4" selection-end-line="8132" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="76" column="7" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
+        <state relative-caret-position="198">
+          <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-cn.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="59" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="59" />
+        <state relative-caret-position="2142">
+          <caret line="132" column="81" selection-start-line="132" selection-start-column="81" selection-end-line="132" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-en.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="116" column="31" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="31" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-en.js">
+    <entry file="file://$PROJECT_DIR$/读书/忍者秘籍-源码/src/SortExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

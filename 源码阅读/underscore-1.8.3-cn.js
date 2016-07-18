@@ -59,10 +59,12 @@
     // 如果是非 OOP 形式的调用，不会进入该函数内部
 
     // 如果 obj 已经是 `_` 函数的实例，则直接返回 obj
+    // 补：类似$用jQuery代替一样
     if (obj instanceof _) return obj;
 
     // 如果不是 `_` 函数的实例
     // 则调用 new 运算符，返回实例化的对象
+    // 补：
     if (!(this instanceof _)) return new _(obj);
 
     // 将 obj 赋值给 this._wrapped 属性

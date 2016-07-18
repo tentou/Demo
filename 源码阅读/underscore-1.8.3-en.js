@@ -49,6 +49,7 @@
     if (typeof module !== 'undefined' && module.exports) {
       exports = module.exports = _;
     }
+    //Node 引用的时候就可以直接用_了
     exports._ = _;
   } else {
     root._ = _;
@@ -60,7 +61,13 @@
   // Internal function that returns an efficient (for current engines) version
   // of the passed-in callback, to be repeatedly applied in other Underscore
   // functions.
+  // 目的：改变执行函数的作用域指向context
   var optimizeCb = function(func, context, argCount) {
+    // void 对给定的表达式求值（第一种定义）
+    // void 可以将后边的函数声明转化成函数表达式（第二种定义）
+    // void fun(){}();  这样就是一个自执行函数，后边是个表达式
+    // <a href="javascript:void(0);">  使点击无效，如果去掉void，整个页面会显示0
+    // <a href="javascript:void(document.body.style.backgroundColor='green');">   点击页面背景变绿
     if (context === void 0) return func;
     switch (argCount == null ? 3 : argCount) {
       case 1: return function(value) {
@@ -84,10 +91,15 @@
   // A mostly-internal function to generate callbacks that can be applied
   // to each element in a collection, returning the desired result — either
   // identity, an arbitrary callback, a property matcher, or a property accessor.
+
   var cb = function(value, context, argCount) {
+    // 返回value本身
     if (value == null) return _.identity;
+    // 改变作用域
     if (_.isFunction(value)) return optimizeCb(value, context, argCount);
+    // 返回判断是否匹配的结果
     if (_.isObject(value)) return _.matcher(value);
+    // 返回obj[key]
     return _.property(value);
   };
   _.iteratee = function(value, context) {
@@ -95,6 +107,10 @@
   };
 
   // An internal function for creating assigner functions.
+  // 这个函数被用于_.extend和_.extendOwn和_.defaults方法
+  // _.extend 可以理解为：有 a，b 两个对象，将 b 所有的键值对都添加到 a 上面去，返回 a
+  // _.extendOwn 可以理解为只会取 b 对象的 own properties
+  // _.defaults 跟 _.extend 类似，但是如果 key 相同，后面的不会覆盖前面的，取第一次出现某 key 的 value，为 key-value 键值对。
   var createAssigner = function(keysFunc, undefinedOnly) {
     return function(obj) {
       var length = arguments.length;
