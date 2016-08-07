@@ -5,10 +5,12 @@ var nickNames = {};
 var namesUsed = [];
 var currentRoom = {};
 
+//先写整体的逻辑
 exports.listen = function(server) {
   io = socketio.listen(server);
   io.set('log level', 1);
   io.sockets.on('connection', function (socket) {
+      //给访客分配一个数字名
     guestNumber = assignGuestName(socket, guestNumber, nickNames, namesUsed);
     joinRoom(socket, 'Lobby');
     handleMessageBroadcasting(socket, nickNames);
