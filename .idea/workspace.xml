@@ -2,369 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26c84b2f-623d-4014-af18-41a0017d5488" name="Default" comment="增加三本书籍源代码">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/async &amp; performance/cover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/es6 &amp; beyond/cover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/es6 &amp; beyond/fig1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/scope &amp; closures/cover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/scope &amp; closures/fig1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/scope &amp; closures/fig2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/this &amp; object prototypes/cover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/this &amp; object prototypes/fig1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/this &amp; object prototypes/fig2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/this &amp; object prototypes/fig3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/this &amp; object prototypes/fig4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/this &amp; object prototypes/fig5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/this &amp; object prototypes/fig6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/types &amp; grammar/cover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/types &amp; grammar/fig1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/up &amp; going/cover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/up &amp; going/fig1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/up &amp; going/fig2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/up &amp; going/fig3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/up &amp; going/fig4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/up &amp; going/fig5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/up &amp; going/fig6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/10/assert/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/10/assert/todo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/10/mocha/memdb/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/10/mocha/memdb/test/memdb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/10/nodeunit/manual_count.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/10/should/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/10/should/test/tips.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/10/soda/soda.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/10/soda/soda_via_sauce_labs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/10/tobi/test_todo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/10/vows/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/10/vows/todo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/11/blog/blog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/11/blog/entries.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/11/blog/template/blog_page.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/11/client/client.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/11/client/ejs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/11/custom_filters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/11/hogan/custom_section_tags.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/11/hogan/lambda.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/11/hogan/partial.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/11/jade/inheritance/inheritance_example.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/11/jade/inheritance/template/layout.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/11/jade/inheritance/template/page.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/11/students/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/11/students/template/students.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/12/cluster_demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/12/cluster_messaging.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/13/age_restricted.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/13/ansi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/13/argv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/13/copy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/13/debug-mode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/13/echo_server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/13/fibonacci.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/13/netcat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/13/reloader/header.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/13/reloader/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/13/reloader/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/13/reloader/watcher-server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/13/time_server/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/13/time_server/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/14/example.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/14/node-elf/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/2/chat/lib/chat_server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/2/chat/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/2/chat/public/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/2/chat/public/javascripts/chat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/2/chat/public/javascripts/chat_ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/2/chat/public/stylesheets/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/2/chat/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/3/callback_example.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/3/currency.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/3/downloader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/3/event_emitter_extend.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/3/preserve_global_with_closure.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/3/pubsub.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/3/random_story/random_story.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/3/random_story/rss_feeds.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/3/reducing_nesting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/3/reducing_nesting_by_returning_early.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/3/scope_behavior.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/3/serial_control_with_tool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/3/test-currency.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/3/using_on_method.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/3/using_once_method.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/3/word_count/text/hippo.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/3/word_count/text/human.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/3/word_count/word_count.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/4/file_server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/4/http_get_post.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/4/post_request_body_string_buffering.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/4/readstream_static.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/5/cli_tasks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/5/mongo_insert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/5/mongo_update.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/5/mongoose.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/5/redis_basics.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/5/redis_pubsub_chat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/5/timetrack/lib/timetrack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/5/timetrack/timetrack_server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/6/authentication.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/6/error_handling.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/6/logger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/6/middleware/router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/6/minimal_connect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/6/multi_error.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/6/router_example.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/6/simple_routing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/6/using_middleware.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/6/wrong_order.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/7/async_basic_auth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/7/limit/dos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/7/limit/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/7/limit/server_with_limit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/7/limit/server_with_limit_based_on_content_type.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/7/logger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/7/method_override/broken.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/7/method_override/fixed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/7/pageview_counter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/8/minimal_express.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/8/photo_app/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/8/photo_app/models/Photo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/8/photo_app/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/8/photo_app/public/stylesheets/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/8/photo_app/routes/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/8/photo_app/routes/photos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/8/photo_app/routes/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/8/photo_app/views/index.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/8/photo_app/views/photos/index.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/8/photo_app/views/photos/upload.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/lib/entry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/lib/messages.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/lib/middleware/page.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/lib/middleware/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/lib/middleware/validate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/lib/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/public/stylesheets/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/routes/api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/routes/entries.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/routes/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/routes/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/routes/register.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/routes/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/views/404.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/views/5xx.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/views/entries.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/views/entries/xml.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/views/index.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/views/login.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/views/menu.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/views/messages.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/views/pager.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/views/post.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/Nodejs实战/9/shoutbox/views/register.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/async &amp; performance/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/async &amp; performance/apA.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/async &amp; performance/apB.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/async &amp; performance/apC.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/async &amp; performance/ch1.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/async &amp; performance/ch2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/async &amp; performance/ch3.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/async &amp; performance/ch4.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/async &amp; performance/ch5.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/async &amp; performance/ch6.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/async &amp; performance/foreword.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/async &amp; performance/toc.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/es6 &amp; beyond/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/es6 &amp; beyond/apA.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/es6 &amp; beyond/ch1.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/es6 &amp; beyond/ch2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/es6 &amp; beyond/ch3.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/es6 &amp; beyond/ch4.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/es6 &amp; beyond/ch5.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/es6 &amp; beyond/ch6.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/es6 &amp; beyond/ch7.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/es6 &amp; beyond/ch8.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/es6 &amp; beyond/foreword.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/es6 &amp; beyond/toc.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/build-templates.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/csv/$0.00.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/csv/$5.00.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/email-invite.grips.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/generate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/sample.secret.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/templates/index.grips.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/templates/master.grips.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/templates/profile.grips.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/templates/tmpls-wrapper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/web/css/site.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/web/js/Format.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/web/js/Notify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/web/js/Pages.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/web/js/Tmpls.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/web/js/Util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/web/js/Validate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/web/js/external/asq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/web/js/external/grips.debug.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/web/js/external/grips.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/web/js/external/h5ive.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/web/js/external/history.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/web/js/load.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/web/js/pages/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/web/js/pages/profile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/web/js/site.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/scope &amp; closures/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/scope &amp; closures/apA.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/scope &amp; closures/apB.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/scope &amp; closures/apC.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/scope &amp; closures/apD.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/scope &amp; closures/ch1.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/scope &amp; closures/ch2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/scope &amp; closures/ch3.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/scope &amp; closures/ch4.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/scope &amp; closures/ch5.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/scope &amp; closures/toc.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/this &amp; object prototypes/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/this &amp; object prototypes/apA.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/this &amp; object prototypes/apB.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/this &amp; object prototypes/ch1.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/this &amp; object prototypes/ch2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/this &amp; object prototypes/ch3.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/this &amp; object prototypes/ch4.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/this &amp; object prototypes/ch5.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/this &amp; object prototypes/ch6.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/this &amp; object prototypes/foreword.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/this &amp; object prototypes/toc.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/types &amp; grammar/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/types &amp; grammar/apA.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/types &amp; grammar/apB.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/types &amp; grammar/ch1.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/types &amp; grammar/ch2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/types &amp; grammar/ch3.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/types &amp; grammar/ch4.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/types &amp; grammar/ch5.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/types &amp; grammar/foreword.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/types &amp; grammar/toc.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/up &amp; going/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/up &amp; going/apA.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/up &amp; going/ch1.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/up &amp; going/ch2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/up &amp; going/ch3.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/up &amp; going/foreword.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/You-Dont-Know-JS/up &amp; going/toc.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/02/addon/binding.gyp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/02/addon/hello.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/02/addon/src/hello.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/02/extensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/02/module/hello.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/02/module/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/03/next_tick.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/03/next_tick_set_immediate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/03/set_immediate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/04/async/file1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/04/async/file2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/04/async/parallel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/04/async/waterfall.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/04/promise_a/file1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/04/promise_a/file2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/04/promise_a/promise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/04/promise_a/sequence.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/04/promise_a/smooth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/04/step/file1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/04/step/file2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/04/step/group.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/04/step/parallel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/04/step/serial.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/04/wind/file1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/04/wind/file2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/04/wind/parallel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/04/wind/serial.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/05/closure01.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/05/closure02.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/05/closure03.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/05/delete.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/05/heap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/05/in.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/05/leak/diff.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/05/leak/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/05/leak/server2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/05/out.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/05/out_of_heap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/05/outofmemory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/05/parse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/05/stream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/05/test01.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/05/test02.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/05/try_catch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/06/allocate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/06/buf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/06/decoder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/06/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/06/string.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/06/test.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/06/transfer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/06/unicode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/http/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/http/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/https/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/https/keys/ca.crt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/https/keys/client.crt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/https/keys/client.key" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/https/keys/server.crt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/https/keys/server.key" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/https/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/tcp/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/tcp/echo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/tcp/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/tls/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/tls/keys/ca.crt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/tls/keys/ca.csr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/tls/keys/ca.key" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/tls/keys/ca.srl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/tls/keys/client.crt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/tls/keys/client.csr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/tls/keys/client.key" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/tls/keys/server.crt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/tls/keys/server.csr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/tls/keys/server.key" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/tls/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/udp/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/udp/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/07/websocket/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/08/bagpipe/assets/render.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/08/bagpipe/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/08/bagpipe/views/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/08/mime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/08/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/08/template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/09/cluster.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/09/handle/1/child.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/09/handle/1/parent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/09/handle/2/child.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/09/handle/2/parent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/09/handle/3/child.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/09/handle/3/parent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/09/master.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/09/pm/master.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/09/pm/worker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/09/signal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/09/suicide/master.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/09/suicide/worker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/09/worker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/10/cluster.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/10/for.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/10/length.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/10/map_for.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/10/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/10/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/11/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/11/appctl.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/11/logger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/深入浅出Nodejs/B/myscript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mocha/memdb/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mocha/memdb/test/memdb.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/读书/Nodejs实战/10/mocha/memdb/index.js" afterPath="$PROJECT_DIR$/读书/Nodejs实战/10/mocha/memdb/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/读书/Nodejs实战/10/mocha/memdb/test/memdb.js" afterPath="$PROJECT_DIR$/读书/Nodejs实战/10/mocha/memdb/test/memdb.js" />
     </list>
     <ignored path="Demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -385,51 +27,7 @@
     <favorites_list name="Demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="chat_server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/读书/Nodejs实战/2/chat/lib/chat_server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myscript.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/读书/深入浅出Nodejs/B/myscript.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/读书/You-Dont-Know-JS/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Util.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/web/js/Util.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="167" column="15" selection-start-line="167" selection-start-column="15" selection-end-line="167" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -454,6 +52,9 @@
         <option value="$PROJECT_DIR$/源码阅读/underscore-1.8.3-cn.js" />
         <option value="$PROJECT_DIR$/源码阅读/underscore-1.8.3-en.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/读书/Nodejs实战/10/assert/test.js" />
+        <option value="$PROJECT_DIR$/读书/Nodejs实战/10/mocha/memdb/index.js" />
+        <option value="$PROJECT_DIR$/读书/Nodejs实战/10/mocha/memdb/test/memdb.js" />
       </list>
     </option>
   </component>
@@ -464,10 +65,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="69" />
-    <option name="y" value="21" />
-    <option name="width" value="1297" />
-    <option name="height" value="747" />
+    <option name="x" value="-37" />
+    <option name="y" value="89" />
+    <option name="width" value="1364" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -494,7 +95,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -527,10 +127,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="读书" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nodejs实战" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nodejs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nodejs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="photo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -542,6 +193,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Demo" />
       <recent name="$PROJECT_DIR$/读书" />
       <recent name="D:\Demo\读书" />
       <recent name="D:\Demo\源码阅读" />
@@ -959,6 +611,19 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
       <method />
     </configuration>
@@ -1000,6 +665,8 @@
       <workItem from="1469359870138" duration="2297000" />
       <workItem from="1469460018209" duration="337000" />
       <workItem from="1470066860535" duration="1473000" />
+      <workItem from="1470730431773" duration="12899000" />
+      <workItem from="1470814517061" duration="1889000" />
     </task>
     <task id="LOCAL-00001" summary="Deferred源码阅读">
       <created>1467727461103</created>
@@ -1019,7 +686,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48083000" />
+    <option name="totallyTimeSpent" value="62871000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1031,23 +698,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="69" y="21" width="1297" height="747" extended-state="6" />
+    <frame x="-37" y="89" width="1364" height="726" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32819724" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819724" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64612955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2989214" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29369512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.297546" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1058,6 +724,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1104,76 +771,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-en.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-cn.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="132" column="81" selection-start-line="132" selection-start-column="81" selection-end-line="132" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-en.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-cn.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="59" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-en.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/源码阅读/lodash-4.13.1-en.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-cn.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="59" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-en.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/源码阅读/lodash-4.13.1-en.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-cn.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="59" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/源码阅读/underscore-1.8.3-en.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1320,19 +917,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/读书/Nodejs实战/2/chat/lib/chat_server.js">
+    <entry file="file://$PROJECT_DIR$/Nodejs/cinema/fis-conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-133">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/读书/深入浅出Nodejs/B/myscript.js">
+    <entry file="file://$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/web/js/Util.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="513">
+          <caret line="167" column="15" selection-start-line="167" selection-start-column="15" selection-end-line="167" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1341,16 +936,170 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/读书/You-Dont-Know-JS/kickstarter-survey-site/web/js/Util.js">
+    <entry file="file://$PROJECT_DIR$/读书/深入浅出Nodejs/B/myscript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="167" column="15" selection-start-line="167" selection-start-column="15" selection-end-line="167" selection-end-column="15" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/读书/Nodejs实战/2/chat/lib/chat_server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nodejs/cinema/server/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nodejs/示例一/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nodejs/photo/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nodejs/photo/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nodejs/photo/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nodejs/photo/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nodejs/movie-慕课/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nodejs/photo/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nodejs/photo/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-779">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/读书/Nodejs实战/10/assert/todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/读书/Nodejs实战/10/assert/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/读书/Nodejs实战/14/example.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/读书/Nodejs实战/14/node-elf/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/读书/Nodejs实战/11/students/template/students.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/读书/Nodejs实战/11/client/client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/读书/Nodejs实战/11/client/ejs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/读书/Nodejs实战/10/tobi/test_todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mocha/memdb/test/memdb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/读书/Nodejs实战/10/mocha/memdb/test/memdb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/读书/Nodejs实战/10/mocha/memdb/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
           <folding />
         </state>
       </provider>
