@@ -15,6 +15,7 @@ var server = http.createServer(function(req, res){
   stream.on('end', function(){
     res.end();
   });
+  console.log("gaga")
 });
 
 server.listen(3000);
