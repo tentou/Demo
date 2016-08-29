@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26c84b2f-623d-4014-af18-41a0017d5488" name="Default" comment="创建静态文件服务器">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/静态文件服务器/app.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Demo_node_modules.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="26c84b2f-623d-4014-af18-41a0017d5488" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo.iml" afterPath="$PROJECT_DIR$/Demo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/读书/Nodejs实战/4/readstream_static.js" afterPath="$PROJECT_DIR$/读书/Nodejs实战/4/readstream_static.js" />
     </list>
     <ignored path="Demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -788,7 +782,7 @@
       <workItem from="1471420481269" duration="175000" />
       <workItem from="1472440205644" duration="208000" />
       <workItem from="1472452189711" duration="2417000" />
-      <workItem from="1472454632163" duration="6348000" />
+      <workItem from="1472454632163" duration="6491000" />
     </task>
     <task id="LOCAL-00001" summary="Deferred源码阅读">
       <created>1467727461103</created>
@@ -818,11 +812,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470902932550</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="创建静态文件服务器">
+      <created>1472461217043</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1472461217043</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73589000" />
+    <option name="totallyTimeSpent" value="73732000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -898,7 +899,8 @@
     <MESSAGE value="增加三本书籍源代码" />
     <MESSAGE value="增加Mocha" />
     <MESSAGE value="fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
+    <MESSAGE value="创建静态文件服务器" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建静态文件服务器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
