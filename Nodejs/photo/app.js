@@ -14,6 +14,7 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));  //模板引擎的位置
 app.set('view engine', 'ejs');
+app.set('titles','Photo')               //设置一个全局变量titles
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
