@@ -30,6 +30,19 @@ var server = http.createServer(function (req,res) {
     //      //var writeStream = fs.createWriteStream("./a.txt");   //这个用来写入到文件，如果响应的话可以像下边这么写
     //readStream.pipe(res);
 
+    //可以在读取文件之前先用fs.stat()来查看文件详情，如果不存在则及时返回错误，提前终止
+    // fs.stat(path,function (err,stat) {
+    //     if(err){
+    //         if('ENOENT' == err.code){
+    //             res.statusCode = 404;
+    //             res.end('NOT Found');
+    //         } else{
+    //             res.statusCode = 500;
+    //             res.end('Internal Server Error')
+    //         }
+    //     }else{
+    //     }
+    // })
 });
 server.listen(8888);
 console.log('Server running at http://127.0.0.1:8888/');

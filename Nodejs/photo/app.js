@@ -7,22 +7,23 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
+var photos = require('./routes/photo')
 
 var app = express();
 
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'views'));  //模板引擎的位置
 app.set('view engine', 'ejs');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());           // for parsing application/json
+app.use(bodyParser.urlencoded({ extended: false })); // for parsing application/x-www-form-urlencoded
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')));  //Express 内置的唯一一个中间件。是基于 serve-static 开发的，负责托管 Express 应用内的静态资源。
 
-app.use('/', routes);
+app.use('/', photos);   //指定路由  第一个参数是路径（中间件的路径可以用来区分用户），第二个参数是上边var的一个依赖文件变量
 app.use('/users', users);
 
 // catch 404 and forward to error handler
@@ -36,7 +37,7 @@ app.use(function(req, res, next) {
 
 // development error handler
 // will print stacktrace
-if (app.get('env') === 'development') {
+if (app.get('env') === 'development') {     //开发环境
   app.use(function(err, req, res, next) {
     res.status(err.status || 500);
     res.render('error', {
