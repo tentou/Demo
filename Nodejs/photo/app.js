@@ -5,16 +5,16 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var routes = require('./routes/index');
-var users = require('./routes/users');
-var photos = require('./routes/photo')
-
 var app = express();
 
+var routes = require('./routes/index');
+var users = require('./routes/users');
+var photos = require('./routes/photo');
+
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));  //模板引擎的位置
+app.set('views', path.join(__dirname, 'views'));  //模板引擎的位置其实可以写成 app.set(views,__dirname+'/views');
 app.set('view engine', 'ejs');
-app.set('titles','Photo')               //设置一个全局变量titles
+app.set('titles','Photo');             //设置一个全局变量titles，ejs中通过<%=settings.titles%>来引用
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
