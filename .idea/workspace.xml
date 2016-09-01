@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26c84b2f-623d-4014-af18-41a0017d5488" name="Default" comment="创建静态文件服务器">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/photo/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/photo/views/uploadend.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/shoutbox/lib/user.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Nodejs/photo/bin/tmp/upload_4a450957149ac083fa1fa3c3318dbab0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Nodejs/photo/public/photos/nodejs-sq-process.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+    <list default="true" id="26c84b2f-623d-4014-af18-41a0017d5488" name="Default" comment="上传图片完成">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/photo/bin/tmp/upload_e6ab0f87d0f6f73c724ea153397b224e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/photo/public/photos/00.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/photo/public/photos/lose-code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/shoutbox/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/shoutbox/bin/www" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/shoutbox/npm-debug.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/shoutbox/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/shoutbox/public/stylesheets/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/shoutbox/routes/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/shoutbox/routes/users.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/shoutbox/views/error.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Nodejs/shoutbox/views/index.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo.iml" afterPath="$PROJECT_DIR$/Demo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nodejs/photo/app.js" afterPath="$PROJECT_DIR$/Nodejs/photo/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nodejs/photo/models/Photo.js" afterPath="$PROJECT_DIR$/Nodejs/photo/models/Photo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nodejs/photo/routes/photo.js" afterPath="$PROJECT_DIR$/Nodejs/photo/routes/photo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/读书/Nodejs实战/8/photo_app/models/Photo.js" afterPath="$PROJECT_DIR$/读书/Nodejs实战/8/photo_app/models/Photo.js" />
     </list>
     <ignored path="Demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,7 +71,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1472724076799" expanded="true" signature="0:348" ph="{&quot;name&quot;: &quot;shoutbox&quot;...}" />
+                <marker date="1472724076799" expanded="true" signature="78:113" ph="{&quot;start&quot;: &quot;node ./bin/www&quot;...}" />
+                <marker date="1472724076799" expanded="true" signature="133:346" ph="{&quot;body-parser&quot;: &quot;~1.15.1&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -857,7 +862,7 @@
       <workItem from="1472649024234" duration="76000" />
       <workItem from="1472649123056" duration="10099000" />
       <workItem from="1472693262153" duration="702000" />
-      <workItem from="1472696701091" duration="23025000" />
+      <workItem from="1472696701091" duration="23678000" />
     </task>
     <task id="LOCAL-00001" summary="Deferred源码阅读">
       <created>1467727461103</created>
@@ -901,11 +906,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472461366250</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="上传图片完成">
+      <created>1472725042639</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1472725042639</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144125000" />
+    <option name="totallyTimeSpent" value="144778000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -918,7 +930,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819724" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -932,7 +944,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29836065" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18887262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18887262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -983,7 +995,8 @@
     <MESSAGE value="增加Mocha" />
     <MESSAGE value="fixed" />
     <MESSAGE value="创建静态文件服务器" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建静态文件服务器" />
+    <MESSAGE value="上传图片完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传图片完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1332,7 +1345,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1472724076799" expanded="true" signature="0:348" ph="{&quot;name&quot;: &quot;shoutbox&quot;...}" />
+            <marker date="1472724076799" expanded="true" signature="78:113" ph="{&quot;start&quot;: &quot;node ./bin/www&quot;...}" />
+            <marker date="1472724076799" expanded="true" signature="133:346" ph="{&quot;body-parser&quot;: &quot;~1.15.1&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
