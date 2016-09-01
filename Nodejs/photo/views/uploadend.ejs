@@ -1,0 +1,12 @@
+<% include head %>
+<p>Express stock photo application.</p>
+<div id="photos">
+    <% photos.forEach(function(photo) { %>
+    <div class="photo">
+        <a href='/photo/<%=photo.id%>/download'>
+            <img src='<%=photo.path%>'/>
+        </a>
+    </div>
+    <% }) %>
+</div>
+<% include footer.ejs %>

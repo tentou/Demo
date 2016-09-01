@@ -7,8 +7,10 @@ var router = express.Router();
 var path = require('path');
 var formidable = require('formidable');   //解析上传文件
 var form = new formidable.IncomingForm();
-form.uploadDir = "tmp";
+form.uploadDir = "tmp";         //这一步是将文件缓存到当前运行目录下tmp文件夹下,因为rename只能操作同一硬盘下的文件,否则的话就用stream
+
 var fs = require('fs');
+var Photo = require('../models/Photo');
 
 //创建一些假数据
 var photos = [];
@@ -31,52 +33,62 @@ router.get('/upload',function (req,res,next) {   ////请求图片路由
 });
 //提交图片路由
 router.post('/upload',function (req,res,next) {
-    var newPath = path.resolve(__dirname, '..');
+
+    //formidable插件
     form.parse(req,function(error, fields, files){
-        //console.log(files.image);
+        // console.log('fields',fields);       //表单传递的input数据
+        // console.log('files',files);         //上传文件数据
+
+        var reqBodyName = fields.name;
+        var newPathDir = path.resolve(__dirname, '..');   //返回到photo文件夹
+        var oldPath = files.image.path;
+        var newPath = newPathDir+'/public/photos/'+files.image.name;
+        var dataImgPath = '/photos/'+files.image.name;
+
+         console.log(newPath)
+
+        //移动文件方法一：
         // var readStream=fs.createReadStream(files.image.path);
         // var writeStream=fs.createWriteStream(newPath+'/public/photos');
         // readStream.pipe(writeStream);
         // readStream.on('end',function(){
         //     fs.unlinkSync(files.image.path);
         // });
-        //     res.writeHead(200, {"Content-Type": "text/html"});
-        //     res.write("received image:<br/>");
-        //     res.end();
-        fs.rename(files.image.path,newPath+'/public/photos/'+files.image.name,function () {
-            res.writeHead(200, {"Content-Type": "text/html"});
-            res.write("received image:<br/>");
-            res.end();
+
+        //移动文件方法二：
+        fs.rename(oldPath,newPath,function () {
+
+            //存入数据库
+            Photo.create({
+                name:reqBodyName,
+                path:dataImgPath
+            });
+            res.redirect('/uploadend');  //重定向-放在这里是为了在跳转后显示最后一次插入的数据，否则的话，因为异步，可能会导致最后插入的图片不显示
         });
+
     });
-    // form.on('progress', function(bytesReceived, bytesExpected) {
-    //     console.log(bytesReceived);
-    // });
-    // form.on('file', function(error, fields, files) {
-    //     console.log(files.image.path);
-    // })
-    // form.on('end', function() {
-    //     console.log("end")
-    // });
-    // var name = req.body.name;
-    // var img = req.body.image;
-    // var imgFile = req.files;
-    // var oldPath = file;
-    // form.uploadDir = __dirname+'/public/photos';
-    // var imgNewPath = path.join(__dirname+'/public/photos',img);       //img.name是原文件名
-    // console.log(form.uploadDir);
-    // console.log(oldPath);
-    //console.log(img.path);
-    //console.log(imgNewPath)
-    // fs.name(img.path,path,function (err) {      //img.path是原文件地址
-    //     var photo = new Photo();
-    //     photo.create({
-    //         name:name,
-    //         path:img.name
-    //     },function (err) {
-    //         console.log(err);
-    //     })
-    //
-    // })
+
 });
+router.get('/uploadend',function (req,res,next) {
+    Photo.find({},function (err,photos) {
+        res.render('uploadend', {
+            title:'hehe',
+            photos:photos
+        })
+    })
+    // res.write("上传成功")
+    // res.end("end");
+
+})
+router.get('/photo/:id/download',function (req,res,next) {
+    var id = req.params.id;  //取路由的id值  /user/:id
+    var newPathDir = path.resolve(__dirname, '..');   //返回到photo文件夹
+    var pathDown = newPathDir+'/public';
+    Photo.findById(id,function (err,photo) {
+        var path = pathDown+photo.path;
+        res.sendfile(path);   //传输文件
+        //res.download(path); //提示保存
+    })
+    
+})
 module.exports = router;
