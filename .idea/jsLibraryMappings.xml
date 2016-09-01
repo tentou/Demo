@@ -3,6 +3,7 @@
   <component name="JavaScriptLibraryMappings">
     <file url="file://$PROJECT_DIR$/Chatroom" libraries="{Demo/Chatroom/node_modules}" />
     <file url="file://$PROJECT_DIR$/Nodejs/photo" libraries="{Demo/Nodejs/photo/node_modules}" />
+    <file url="file://$PROJECT_DIR$/Nodejs/shoutbox" libraries="{Demo/Nodejs/shoutbox/node_modules}" />
     <includedPredefinedLibrary name="ECMAScript 6" />
   </component>
 </project>

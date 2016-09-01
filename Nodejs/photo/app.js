@@ -9,10 +9,9 @@ var formidable = require('formidable');   //解析上传文件
 
 var app = express();
 
-var routes = require('./routes/index');
+var routes = require('./routes/index');   //这句其实也没用了，因为下边app.use('/',photos)用photos代替着呢
 var users = require('./routes/users');
 var photos = require('./routes/photo');
-var Photo = require('./models/Photo')
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));  //模板引擎的位置其实可以写成 app.set(views,__dirname+'/views');
@@ -27,7 +26,7 @@ app.use(bodyParser.urlencoded({ extended: false })); // for parsing application/
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));  //Express 内置的唯一一个中间件。是基于 serve-static 开发的，负责托管 Express 应用内的静态资源。默认的http://localhost:3000/访问的就是这个文件夹
 
-app.use('/', photos);   //指定路由  第一个参数是路径（中间件的路径可以用来区分用户），第二个参数是上边var的一个依赖文件变量
+app.use('/', photos);   //中间件-专人指定专门的路径  第一个参数是路径（中间件的路径可以用来区分用户），第二个参数是上边var的一个依赖文件变量
 app.use('/users', users);
 
 // catch 404 and forward to error handler
