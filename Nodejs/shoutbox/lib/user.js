@@ -70,16 +70,18 @@ zhpData.save(function () {
 
 //用户提交用户名和密码登陆认证的过程
 //认证用户
-function getByName(name,pass,fn) {
+function getByName(name,fn) {
     db.get('user:id:'+name,function (err,value) {
         //value 获取的是user:id:name 对应的id值
-
+        if(err){
+            console.log('用户不存在')
+        }
         db.hgetall('user:'+value,function(err,user){
             //user 是user:id 所对应的哈希表的数据，其实就是对象user
             //console.log(user);
-            if(pass = user.password){
-                console.log('验证通过')
-            }
+            // if(pass = user.password){
+            //     console.log('验证通过')
+            // }
             fn();             //这个fn其实就是获取到用户后进行验证的
         })
     })
