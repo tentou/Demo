@@ -70,22 +70,23 @@ zhpData.save(function () {
 
 //用户提交用户名和密码登陆认证的过程
 //认证用户
-// function getByName() {
-//     db.hgetall('user:9',function(value){
-//         console.log(value)
-//     })
-//     //
-//     // db.get('user:id:'+name,function (value) {
-//     //     console.log('打印user:id:zhp的id为'+value)
-//     //     db.hgetall('user:'+value,function(user){
-//     //         console.log(user);
-//     //         fn();             //这个fn其实就是获取到用户后进行验证的
-//     //     })
-//     // })
-// }
-// getByName();
-// getByName('zhp',function () {
-//     console.log('hehe')
-//
-// });
+function getByName(name,pass,fn) {
+    db.get('user:id:'+name,function (err,value) {
+        //value 获取的是user:id:name 对应的id值
+
+        db.hgetall('user:'+value,function(err,user){
+            //user 是user:id 所对应的哈希表的数据，其实就是对象user
+            //console.log(user);
+            if(pass = user.password){
+                console.log('验证通过')
+            }
+            fn();             //这个fn其实就是获取到用户后进行验证的
+        })
+    })
+}
+
+getByName('zhp',function () {
+    console.log('hehe')
+
+});
 //module.exports = User;
