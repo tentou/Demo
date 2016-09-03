@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var register = require('./routes/register');
-var message = require('./lib/message');
+//var message = require('./lib/message');
 
 var app = express();
 
@@ -23,8 +23,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.session());
-app.use(message());    //自己做的中间件，文件在./lib/message内
+//app.use(express.session());
+//app.use(message());    //自己做的中间件，文件在./lib/message内
 
 app.use('/', register);
 app.use('/users', users);
