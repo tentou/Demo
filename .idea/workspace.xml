@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26c84b2f-623d-4014-af18-41a0017d5488" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/7天搞定Node.js微信公众号开发/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/7天搞定Node.js微信公众号开发/6.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/7天搞定Node.js微信公众号开发/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/7天搞定Node.js微信公众号开发/tasks/final/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/7天搞定Node.js微信公众号开发/tasks/final/count.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/7天搞定Node.js微信公众号开发/tasks/final/day1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/7天搞定Node.js微信公众号开发/tasks/final/day2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/7天搞定Node.js微信公众号开发/tasks/final/day3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/7天搞定Node.js微信公众号开发/tasks/final/day4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/7天搞定Node.js微信公众号开发/tasks/final/day5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/7天搞定Node.js微信公众号开发/tasks/final/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/7天搞定Node.js微信公众号开发/tasks/original/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/7天搞定Node.js微信公众号开发/tasks/original/count.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/7天搞定Node.js微信公众号开发/tasks/original/day1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/7天搞定Node.js微信公众号开发/tasks/original/day2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/7天搞定Node.js微信公众号开发/tasks/original/day3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/7天搞定Node.js微信公众号开发/tasks/original/day4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/7天搞定Node.js微信公众号开发/tasks/original/day5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读书/7天搞定Node.js微信公众号开发/tasks/original/package.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Nodejs/shoutbox/npm-debug.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nodejs/shoutbox/app.js" afterPath="$PROJECT_DIR$/Nodejs/shoutbox/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nodejs/shoutbox/lib/user.js" afterPath="$PROJECT_DIR$/Nodejs/shoutbox/lib/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nodejs/shoutbox/routes/register.js" afterPath="$PROJECT_DIR$/Nodejs/shoutbox/routes/register.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nodejs/shoutbox/views/messages.ejs" afterPath="$PROJECT_DIR$/Nodejs/shoutbox/views/messages.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nodejs/shoutbox/views/register.ejs" afterPath="$PROJECT_DIR$/Nodejs/shoutbox/views/register.ejs" />
     </list>
     <ignored path="Demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +55,7 @@
       <file leaf-file-name="user.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nodejs/shoutbox/lib/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="1071">
               <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
               <folding />
             </state>
@@ -152,10 +167,12 @@
     <handled-path value="$PROJECT_DIR$/Chatroom/node_modules" />
     <handled-path value="$PROJECT_DIR$/Nodejs/photo/node_modules" />
     <handled-path value="$PROJECT_DIR$/Nodejs/shoutbox/node_modules" />
+    <handled-path value="$PROJECT_DIR$/读书/7天搞定Node.js微信公众号开发/tasks/final/node_modules" />
+    <handled-path value="$PROJECT_DIR$/读书/7天搞定Node.js微信公众号开发/tasks/original/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="73" />
-    <option name="y" value="72" />
+    <option name="x" value="48" />
+    <option name="y" value="21" />
     <option name="width" value="1364" />
     <option name="height" value="726" />
   </component>
@@ -365,6 +382,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="读书" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7天搞定Node.js微信公众号开发" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Nodejs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -513,11 +548,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Demo\读书" />
       <recent name="D:\Demo\Nodejs\shoutbox\views" />
       <recent name="D:\Demo\Nodejs\shoutbox\routes" />
       <recent name="D:\Demo\Nodejs\photo\views" />
       <recent name="D:\Demo" />
-      <recent name="$PROJECT_DIR$/读书" />
     </key>
   </component>
   <component name="RunManager">
@@ -1013,7 +1048,7 @@
       <workItem from="1472696701091" duration="23678000" />
       <workItem from="1472738485851" duration="7174000" />
       <workItem from="1472780067091" duration="15515000" />
-      <workItem from="1472819313314" duration="28421000" />
+      <workItem from="1472819313314" duration="29260000" />
     </task>
     <task id="LOCAL-00001" summary="Deferred源码阅读">
       <created>1467727461103</created>
@@ -1078,11 +1113,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472835169245</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="注册页完成">
+      <created>1472885568415</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1472885568416</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195888000" />
+    <option name="totallyTimeSpent" value="196727000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1094,8 +1136,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="73" y="72" width="1364" height="726" extended-state="0" />
-    <editor active="true" />
+    <frame x="48" y="21" width="1364" height="726" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819724" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1109,7 +1151,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29836065" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19018404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19018404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1161,7 +1203,8 @@
     <MESSAGE value="fixed" />
     <MESSAGE value="创建静态文件服务器" />
     <MESSAGE value="上传图片完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="上传图片完成" />
+    <MESSAGE value="注册页完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="注册页完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1538,7 +1581,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Nodejs/shoutbox/lib/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="1071">
           <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
           <folding />
         </state>
