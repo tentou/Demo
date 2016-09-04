@@ -15,6 +15,7 @@ var db = redis.createClient(6379,'127.0.0.1');
 //     console.log(value);
 // })
 db.on('connect',function () {
+    debug('打印打印打印打印打印打印');
     console.log('数据库连接成功')
 })
 
@@ -53,6 +54,7 @@ User.prototype.update = function (fn) {
     })
 }
 User.prototype.hashPassword = function(fn){
+
     console.log('-----密码加盐成功-----')
     fn;
 }
