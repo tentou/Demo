@@ -9,11 +9,15 @@ var redis = require('redis');
 //var bcrypt = require('bcrypt');
 var db = redis.createClient(6379,'127.0.0.1');
 
+//数据库连接测试
 // db.set('color','red');
 // db.get('color',function (err,value) {
 //     console.log(value);
 // })
-
+db.on('connect',function () {
+    debug('打印打印打印打印打印打印');
+    console.log('数据库连接成功')
+})
 
 function User(obj) {
     for (key in obj) {
@@ -25,7 +29,7 @@ function User(obj) {
 
 //User需要有存储功能
 User.prototype.save = function (fn) {
-    if(this.id){        //判断用户已经存在的话
+    if(this.id){        //判断用户已经存在的话,用来修改用户密码用的
         this.update(fn);      //升级这个用户信息,可以理解为原来没有填写手机号，this内新包含了新手机号，通过update来新增加手机号信息
     }else{
         var user = this;
@@ -50,43 +54,51 @@ User.prototype.update = function (fn) {
     })
 }
 User.prototype.hashPassword = function(fn){
+
     console.log('-----密码加盐成功-----')
+    fn;
 }
-//伪数据测试
-var zhp = {
-    name:'zhp',
-    password:123
-}
-var zhpData = new User(zhp);
-
-zhpData.save(function () {
-    console.log('-----更新完成----');
-    console.log(zhpData);
-    // db.hgetall('user:8',function(value) {
-    //      console.log(value)
-    // })
-
-});
 
 //用户提交用户名和密码登陆认证的过程
 //认证用户
-function getByName(name,pass,fn) {
+User.getByName =function(name,noName,haveName) {
     db.get('user:id:'+name,function (err,value) {
         //value 获取的是user:id:name 对应的id值
-
-        db.hgetall('user:'+value,function(err,user){
-            //user 是user:id 所对应的哈希表的数据，其实就是对象user
-            //console.log(user);
-            if(pass = user.password){
-                console.log('验证通过')
-            }
-            fn();             //这个fn其实就是获取到用户后进行验证的
-        })
+        if(!value){
+            noName();
+        }else{
+            haveName();
+        }
+        // db.hgetall('user:'+value,function(err,user){
+        //     //user 是user:id 所对应的哈希表的数据，其实就是对象user
+        //     //console.log(user);
+        //     // if(pass = user.password){
+        //     //     console.log('验证通过')
+        //     // }
+        //     fn();             //这个fn其实就是获取到用户后进行验证的
+        // })
     })
 }
 
-getByName('zhp',function () {
-    console.log('hehe')
+// getByName('zhp',function () {
+//     console.log('hehe')
+//
+// });
 
-});
-//module.exports = User;
+//伪数据测试
+// var zhp = {
+//     name:'zhp',
+//     password:123
+// }
+// var zhpData = new User(zhp);
+//
+// zhpData.save(function () {
+//     console.log('-----更新完成----');
+//     //console.log(zhpData);
+//     // db.hgetall('user:8',function(value) {
+//     //      console.log(value)
+//     // })
+//
+// });
+
+module.exports = User;
