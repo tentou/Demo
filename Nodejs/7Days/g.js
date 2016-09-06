@@ -14,7 +14,7 @@ module.exports = function(opts){
     //加密
     return function *(next) {
         //console.log(this.query);  //URL上带的？后边的键值对
-        var that = this;
+        //var that = this;
         var token = opts.token;
         var signature = this.query.signature;
         var nonce = this.query.nonce;
@@ -26,15 +26,20 @@ module.exports = function(opts){
         if(this.method === 'GET'){
             //判断签名是否合法
             if(sha === signature){
+                console.log("get对")
+
                 this.body = echostr + '';
             }else{
+                console.log("get不对")
                 this.body = 'wrong';
             }
         }else if(this.method === 'POST'){
             if(sha !== signature){    //不合法
+                console.log("post不对")
                 this.body = 'wrong';
                 return false;
             }else{
+                console.log("post对")
                 var data = yield getRawBody(this.req,{      //获取post得到的xml数据
                     length: this.length,
                     limit:'1mb',
@@ -42,8 +47,8 @@ module.exports = function(opts){
                 })
                 var content = yield util.parseXMLAsync(data);   //解析xml文件
                 console.log(content);
-                var message = util.formatMessage(content.xml)  //格式化xml数据
-                console.log(message);
+                // var message = util.formatMessage(content.xml)  //格式化xml数据
+                // console.log(message);
                 // if(message.msgType === 'event'){
                 //     if(message.Event === 'subscribe'){
                 //         var now = new Date().getTime();
