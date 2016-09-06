@@ -6,14 +6,25 @@
 'use strict'
 
 var Koa = require('koa');
+var path = require('path');
+var util = require('./libs/util');
 
-var wechat = require('./g')
-
+var wechat = require('./g');
+var wechat_file = path.join(__dirname,'./config/wechat.txt')
 var config = {
     wechat:{
         appID:'wx29caa01db5592485',
         appSecret:'ca79423ad148c52b5522d284f3924a72',
-        token:'tentouceshi'
+        token:'tentouceshi',
+        getAccessToken:function () {
+            return util.readFileAsync(wechat_file)
+        },
+        saveAccessToken:function (data) {
+            data = JSON.stringify(data);        //将data转为字符串存入
+            return util.writeFileAsync(wechat_file,data)
+
+        }
+
     }
 };
 
