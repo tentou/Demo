@@ -14,7 +14,7 @@ module.exports = function(opts){
     //加密
     return function *(next) {
         //console.log(this.query);  //URL上带的？后边的键值对
-        //var that = this;
+        var that = this;
         var token = opts.token;
         var signature = this.query.signature;
         var nonce = this.query.nonce;
@@ -47,27 +47,27 @@ module.exports = function(opts){
                 })
                 var content = yield util.parseXMLAsync(data);   //解析xml文件
                 console.log(content);
-                // var message = util.formatMessage(content.xml)  //格式化xml数据
-                // console.log(message);
-                // if(message.msgType === 'event'){
-                //     if(message.Event === 'subscribe'){
-                //         var now = new Date().getTime();
-                //
-                //         that.status = 200;
-                //         that.type = 'application/xml';
-                //         var reply =
-                //         //     '<xml>
-                //         //     <ToUserName><![CDATA[toUser]]></ToUserName>
-                //         //     <FromUserName><![CDATA[fromUser]]></FromUserName>
-                //         //     <CreateTime>1348831860</CreateTime>
-                //         //     <MsgType><![CDATA[text]]></MsgType>
-                //         //     <Content><![CDATA[this is a test]]></Content>
-                //         // <MsgId>1234567890123456</MsgId>
-                //         // </xml>'
-                //         console.log(reply);
-                //         that.body = reply;
-                //     }
-                // }
+                var message = util.formatMessage(content.xml)  //格式化xml数据
+                console.log(message);
+                if(message.MsgType === 'event'){  //如果是一个event，说明push过来的是一个事件
+                    if(message.Event === 'subscribe'){      //如果是subscribe（订阅事件）
+                        var now = new Date().getTime();
+
+                        that.status = 200;    //回复状态
+                        that.type = 'application/xml';      //回复类型
+                        var reply =                         //要回复的内容，必须是xml格式
+                            '<xml>'+
+                            '<ToUserName><![CDATA['+ message.FromUserName +']]></ToUserName>'+
+                            '<FromUserName><![CDATA['+ message.ToUserName +']]></FromUserName>'+
+                            '<CreateTime>'+ now +'</CreateTime>'+
+                            '<MsgType><![CDATA[text]]></MsgType>'+
+                            '<Content><![CDATA[Hi im zhp]]></Content>'+    //这里的Hi im zhp是当我关注这个公众号后自动回复的内容
+                            '</xml>'
+                        console.log(reply);
+                        that.body = reply;
+                        return;
+                    }
+                }
             }
         }
     }

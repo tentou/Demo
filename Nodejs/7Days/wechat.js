@@ -21,7 +21,7 @@ function Wechat(opts) {         //新增getAccessToken、saveAccessToken、updat
             try{
                 data = JSON.parse();   //得到的access_token是一个字符串，需要json化
             }catch (e){
-                return that.updateAccessToken();        //获取到的数据错误的时候，进行更新access_token
+                return that.updateAccessToken();        //获取到的数据错误的时候，进行更新access_token   **只是主要是这步来获取的access_token
             }
             if(that.isValidAccessToken(data)){      //查一下是否合法--例如有效期是否过期
                 Promise.resolve(data);
@@ -63,7 +63,7 @@ Wechat.prototype.updateAccessToken = function () {
     return new Promise(function (resolve,reject) {      //将通过get获取票据进行异步操作
         request({url:url,json:true})          //request是一个库，是一个发送get的请求
             .then(function (response) {
-                var data = response[1];
+                var data = response[1];         //返回来的这个就是access_token的具体的值
                 var now = (new Date().getTime());
                 var expires_in = now+(data.expires_in-20)*1000;
 
