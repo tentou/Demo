@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="publish/main.css">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+
+                    //当小于640的时候，采用640的设计稿
+                    if(clientWidth < 640) {
+                        fontSize = 20/640*clientWidth;
+                    //当大于640的时候，采用1246的设计稿
+                    } else {
+                        fontSize = 20/1246*clientWidth;
+                    }
+
+                    docEl.style.fontSize = 20/640*clientWidth + 'px';    //【注释1】
+                };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+<div class="aa"></div>
+<div class="bb"></div>
+<div class="cc"></div>
+</body>
+</html>
