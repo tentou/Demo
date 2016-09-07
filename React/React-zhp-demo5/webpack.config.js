@@ -10,7 +10,7 @@ var babelLoaderPath = path.resolve("../../node_modules");
 module.exports = {
     entry:{
         main:APP_PATH+"/main.jsx",
-        router:APP_PATH+"/react-router.jsx"
+        //router:APP_PATH+"/react-router.jsx"
     },
     output:{
         path:BUILD_PATH,
