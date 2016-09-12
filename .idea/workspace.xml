@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26c84b2f-623d-4014-af18-41a0017d5488" name="Default" comment="7天">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/publish/static/sprite/main.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Debug/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/publish/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sprites/gulpfile.js" afterPath="$PROJECT_DIR$/Sprites/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sprites/main.less" afterPath="$PROJECT_DIR$/Sprites/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="Demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +37,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Debug/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
               <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -71,7 +82,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/读书/Nodejs实战/4/readstream_static.js" />
         <option value="$PROJECT_DIR$/Nodejs/静态文件服务器/app.js" />
         <option value="$PROJECT_DIR$/Nodejs/photo/bin/www" />
@@ -121,6 +131,7 @@
         <option value="chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/adblock-functions.js" />
         <option value="chrome-extension://ninejjcohidippngpapiilnmkgllmakh/content.js" />
         <option value="chrome-extension://ninejjcohidippngpapiilnmkgllmakh/yslow-chrome.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -846,7 +857,7 @@
       <workItem from="1473261780852" duration="8665000" />
       <workItem from="1473302238597" duration="13288000" />
       <workItem from="1473385791477" duration="618000" />
-      <workItem from="1473670088486" duration="2620000" />
+      <workItem from="1473670088486" duration="2738000" />
     </task>
     <task id="LOCAL-00001" summary="Deferred源码阅读">
       <created>1467727461103</created>
@@ -939,11 +950,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473173108763</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="添加了debug">
+      <created>1473674159377</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1473674159377</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252665000" />
+    <option name="totallyTimeSpent" value="252783000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1024,7 +1042,8 @@
     <MESSAGE value="上传图片完成" />
     <MESSAGE value="注册页完成" />
     <MESSAGE value="7天" />
-    <option name="LAST_COMMIT_MESSAGE" value="7天" />
+    <MESSAGE value="添加了debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了debug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1236,14 +1255,6 @@
     <entry file="file://$PROJECT_DIR$/node_modules/spritesheet-templates/lib/spritesheet-templates.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/gulp.spritesmith/lib/gulp-spritesmith.js" />
     <entry file="file://$PROJECT_DIR$/Sprites/1.css" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/css-spritesmith-zhp/package.json" />
     <entry file="file://$PROJECT_DIR$/Sprites/新建文件夹/gulpfile.js" />
     <entry file="file://$PROJECT_DIR$/Sprites/package.json" />
@@ -1349,6 +1360,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding />
         </state>
       </provider>
