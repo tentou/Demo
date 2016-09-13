@@ -2,9 +2,8 @@
  * spirte gulp config
  * Created by tentou on 2016/9/7.
  */
-
 var gulp = require('gulp'),
-    cssSprite = require('gulp-css-spritesmith');
+    cssSprite = require('gulp-css-spritesmith-tentou');
 //--------------------------------dropload项目-----------------------------
 
 gulp.task('autoSprite', function() {
