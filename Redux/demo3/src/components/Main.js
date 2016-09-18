@@ -3,6 +3,7 @@ require('styles/App.css');
 
 import React from 'react';
 import {connect} from 'react-redux';
+import {store} from '../index'
 import {changeStyle} from '../actions/actions.js'
 
 import yeomanImage from '../images/yeoman.png'
@@ -11,28 +12,20 @@ import yeomanImage from '../images/yeoman.png'
 class AppComponent extends React.Component {
   constructor(props) {
     super(props);
-    // this.state = {
-    //   classNew:{
-    //     fontSize: '12px'
-    //   }
-    // }
   }
   handleClick(e){
-    this.props.changeStyles;
-    // this.setState({
-    //   classNew:{
-    //     fontSize: '59px'
-    //   }
-    // })
+    store.dispatch(changeStyle())    //这个changeStyle是从actions引进的，action其实就是用来修改状态的
   }
   render() {
+    //从组件的props属性中导入actions里的方法和变量
     const {dispatch,propsStyle} = this.props;
 
     return (
       <div className="index">
         <img src={yeomanImage} alt="Yeoman Generator" />
-        {/*<div style={stateStyle} onClick={this.handleClick.bind(this)}>Please edi to get started!</div>*/}
-        <div style={propsStyle} changeStyle={dispatch(changeStyle())} onClick={this.handleClick.bind(this)}>Please edi to get started!</div>
+        {propsStyle}
+
+        <div onClick={this.handleClick.bind(this)}>Please edi to get started!</div>
       </div>
     );
   }
@@ -40,7 +33,8 @@ class AppComponent extends React.Component {
 
 function select(state) {
   return {
-    propsStyle:state.propsStyle  //后边这个propsStyle是从reducers传来的
+    //将我们需要的state中的数据绑定到props上
+    propsStyle:state.propsStyle
   }
 }
 

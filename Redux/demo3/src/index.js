@@ -6,7 +6,7 @@ import {createStore} from 'redux';
 import {Provider} from 'react-redux';
 import todoApp from 'stores/reducers.js';
 
-let store = createStore(todoApp);
+export let store = createStore(todoApp);
 
 // Render the main component into the dom
 ReactDOM.render(

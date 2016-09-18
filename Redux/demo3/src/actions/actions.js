@@ -3,6 +3,8 @@
  */
 export const change = 'change';
 
-export function changeStyle() {
-  return {type:change}
+export function changeStyle(text) {
+  return {type:change,
+          text:text
+  }
 }
