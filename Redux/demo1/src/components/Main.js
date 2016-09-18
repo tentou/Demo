@@ -42,7 +42,9 @@ function selectTodos(todos, filter) {
 }
 // 基于全局 state ，哪些是我们想注入的 props ?
 // 注意：使用 https://github.com/reactjs/reselect 效果更佳。
-// 这里的 state 是 Connect 的组件的
+
+//http://www.tuicool.com/articles/RfArqiQ 这里有介绍
+//是将state.visibilityFilter绑定到prpos的visibilityFilter上
 function select(state) {
   return {      //这里返回的都是组件需要用到的state
     visibleTodos: selectTodos(state.todos, state.visibilityFilter),   //todos和visibilityFilter是在ruducers里通过combineReducers合并的，然后通过上边const { dispatch, todos, visibilityFilter } = this.props 赋值给props的
