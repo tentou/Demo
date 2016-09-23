@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .a{
+            position: relative;
+            border:1px solid #000;
+            width:300px;
+            height:300px;
+        }
+        .b{
+            margin:30px;
+            border:1px solid #000;
+            width:200px;
+            height:200px;
+        }
+        .c{
+            position: absolute;
+            border:1px solid #000;
+            width:100px;
+            height:100px;
+        }
+    </style>
+</head>
+<body>
+<div class="a">
+    <div class="b">
+        <div class="c">
+            absolute是由他父元素决定位置的，并不会追溯到position:relative
+        </div>
+    </div>
+</div>
+</body>
+</html>

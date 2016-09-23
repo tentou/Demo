@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var arr = [7, 5, 7, 2, 1, 6, 9, 7, 5, 6];
+    var i = 0,
+            j = arr.length - 1;
+    function sort(arr) {
+
+        var bridge = arr[i];
+        if (arr[i] >= arr[j]) {
+            arr[i] = arr[j];
+            arr[j] = bridge;
+            j--;
+            if (j > i) {
+                sort(arr);
+            } else {
+                i++;
+                if(i<=arr.length-2){
+                    j = arr.length - 1;
+                    sort(arr);
+                }else{
+                    return arr;
+                }
+
+            }
+        } else {
+            j--;
+            if (j > i) {
+                sort(arr);
+            }else{
+                i++;
+                if(i<=arr.length-2){
+                    j = arr.length - 1;
+                    sort(arr);
+                }else{
+                    return arr;
+                }
+            }
+        }
+        return arr;
+    }
+
+
+//    ★简化后
+
+//    function sort(arr) {
+//        var bridge = arr[i];
+//        if (arr[i] >= arr[j]) {
+//            arr[i] = arr[j];
+//            arr[j] = bridge;
+//        }
+//        j--;
+//        if (j > i) {
+//            sort(arr);
+//        } else {
+//            i++;
+//            if (i <= arr.length - 2) {
+//                j = arr.length - 1;
+//                sort(arr);
+//            }
+//        }
+//        return arr;
+//    }
+
+    var newArr = sort(arr);
+    console.log(newArr)
+
+</script>
+</body>
+</html>
