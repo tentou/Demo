@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .a {
+            width: 100px;
+            height: 20px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+<ul id="content">
+    <li class="a">1</li>
+    <li class="a">2</li>
+    <li class="a">3</li>
+</ul>
+<script src="//cdn.bootcss.com/jquery/3.1.1/jquery.js"></script>
+<script>
+
+    //    var li = document.querySelectorAll("#content li")
+    //    li.forEach(function (el,index) {                    //这个index是参数
+    //        el.addEventListener('click', function () {
+    //            console.log(index)
+    //        }, false)
+    //    })
+
+
+    //最复杂写法
+    //    for (i = li.length; i--;) {
+    //        (function(){
+    //            li[i].index = i;    //给添加一个index索引
+    //            li[i].addEventListener('click', function () {       //事件监听里的function的this是指向window的，所以需要给他重新bind对象
+    //                console.log(this.index)
+    //            }.bind(li[i]), false)
+    //        })(i);
+    //    }
+
+</script>
+</body>
+</html>
