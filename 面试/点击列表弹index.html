@@ -37,7 +37,19 @@
     //            }.bind(li[i]), false)
     //        })(i);
     //    }
-
+//    jQuery.ready.promise = function( obj ) {
+//        if ( !readyList ) {
+//            readyList = jQuery.Deferred();
+//            if ( document.readyState === "complete" ) {
+//                // Handle it asynchronously to allow scripts the opportunity to delay ready
+//                setTimeout( jQuery.ready );
+//            } else {
+//                document.addEventListener( "DOMContentLoaded", completed, false );
+//                window.addEventListener( "load", completed, false );
+//            }
+//        }
+//        return readyList.promise( obj );
+//    };
 </script>
 </body>
 </html>
