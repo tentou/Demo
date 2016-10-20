@@ -29,7 +29,7 @@
 
 <script>
     window.onload = function () {
-console.log(event.target)
+
 // DOM2实现
 //        event.target.addEventListener('mousedown',function () {
 //            a = event.target;
@@ -80,22 +80,24 @@ console.log(event.target)
         dragObj.mouseDown = function (event) {
             //this.init(event);
 
-            event.target.addEventListener('mousedown',function () {
-                console.log(event.target)
-                X = event.pageX-this.offsetLeft;
-                Y = event.pageY-this.offsetTop;
-                document.addEventListener('mousemove',dragObj.mouseMove.bind(this));
-                document.addEventListener('mouseup',dragObj.mouseUp.bind(this));
-            }.bind(event.target))
+            document.addEventListener('mousedown',function (event) {
+                var eTarget = event.target;
+                X = event.pageX-eTarget.offsetLeft;
+                Y = event.pageY-eTarget.offsetTop;
+                eTarget.addEventListener('mousemove',dragObj.mouseMove);
+                eTarget.addEventListener('mouseup',dragObj.mouseUp);
+                console.log(this)
+
+            })
         }
-        dragObj.mouseMove = function () {
+        dragObj.mouseMove = function (event) {
             var disX = event.pageX - X;
             var disY = event.pageY - Y;
-            this.elem.style.top = disY+"px";
-            this.elem.style.left = disX+"px";
+            this.style.top = disY+"px";
+            this.style.left = disX+"px";
         }
         dragObj.mouseUp = function () {
-            document.removeEventListener('mousemove',dragObj.mouseMove)
+            this.removeEventListener('mousemove',dragObj.mouseMove)
         }
         var drag1 = Object.create(dragObj);
         drag1.mouseDown(event);
