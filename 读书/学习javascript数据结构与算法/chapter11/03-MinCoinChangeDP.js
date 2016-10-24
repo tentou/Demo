@@ -21,7 +21,7 @@ function MinCoinChange(coins){
             }
             if (
                 newAmount >= 0 &&
-                (newMin.length < min.length-1 || !min.length) &&
+                (newMin.length <= min.length || !min.length) &&
                 (newMin.length || !newAmount)
                 ){
                 min = [coin].concat(newMin);
@@ -33,8 +33,11 @@ function MinCoinChange(coins){
 }
 
 
-var minCoinChange = new MinCoinChange([1, 5, 10, 25]);
-console.log(minCoinChange.makeChange(36));
+// var minCoinChange = new MinCoinChange([1, 5, 10, 25]);
+// console.log(minCoinChange.makeChange(36));
+//
+// var minCoinChange2 = new MinCoinChange([1, 3, 4]);
+// console.log(minCoinChange2.makeChange(6));
 
-var minCoinChange2 = new MinCoinChange([1, 3, 4]);
-console.log(minCoinChange2.makeChange(6));
+var minCoinChange = new MinCoinChange([1, 5, 16, 28]);
+console.log(minCoinChange.makeChange(32));
