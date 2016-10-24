@@ -21,7 +21,7 @@ function MinCoinChange(coins){
             }
             if (
                 newAmount >= 0 &&
-                (newMin.length <= min.length || !min.length) &&
+                (newMin.length < min.length || !min.length) &&
                 (newMin.length || !newAmount)
                 ){
                 min = [coin].concat(newMin);
