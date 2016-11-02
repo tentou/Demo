@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="a">
+    <div class="b"><>haha</div>
+</div>
+<div class="c"></div>
+<div class="d"></div>
+<script>
+    function textInner(a,b){
+        var get = document.querySelector('.a');
+        var insert = document.querySelector('.c');
+        var insertZ = document.querySelector('.d');
+
+        var newGet = get.innerHTML;   //(获取)用这个将DOM转换成字符串，但是这个会将DOM里符号 转化成 转义字符，★但是可以通过url编码转化后就不会过滤掉了
+        insert.innerHTML="<div style='color:red'>haha</div>"     // 可以不转义就插入（识别为浏览器可解析的标签符号），但是一定要注意双引号的使用，内部就不要再用双引号了
+        insertZ.innerHTML="&lt;&gt;"     // 插入转移字符的话（插入文字版标签符号，并不解析）
+
+        var getIf = newGet.indexOf('<div class="b">haha</div>');
+        console.log(newGet)
+    }
+    textInner();
+</script>
+</body>
+</html>
