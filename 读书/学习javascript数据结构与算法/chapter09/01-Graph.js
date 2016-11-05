@@ -26,7 +26,7 @@ function Graph() {
         }
         return s;
     };
-
+//广度优先
     var initializeColor = function(){
         var color = [];
         for (var i=0; i<vertices.length; i++){
@@ -58,7 +58,7 @@ function Graph() {
             }
         }
     };
-
+//深度优先
     this.dfs = function(callback){
 
         var color = initializeColor();
