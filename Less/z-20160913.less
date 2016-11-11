@@ -1692,7 +1692,9 @@
   -webkit-box-shadow: @shadow; // iOS <4.3 & Android <4.1
           box-shadow: @shadow;
 }
-
+.box-shadow-ps(@a,@b,@c,@d,@e){
+  box-shadow: (@c*cos(180-@b)) (@c*sin(180-@b)) (@e - @d*@e) (@d*@e) @a;
+}
 @modal-content-bg:                             #fff;
 //** Modal content border color
 @modal-content-border-color:                   rgba(0,0,0,.2);
