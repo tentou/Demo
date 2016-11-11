@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // store的构造函数
+    const createStore = (reducer) => {
+        let state;
+        let listeners = [];
+
+        const getState = () => state;  //因为下边reducer会更新state，所以这里获取到的state一直都是最新的
+
+        const dispatch = (action) => {  //通过触发dispatch可以修改state
+            state = reducer(state, action);   //通过reducer修改state ★传入的reducer是在这里传入的
+            listeners.forEach(listener => listener());  //遍历执行更新状态，reader调用的是setState或者render方法
+        };
+
+        //监听setState或者render方法，并放入到listeners数组里，等待dispatch触发来执行这个方法
+        const subscribe = (listener) => {
+            listeners.push(listener);
+            return () => {
+                listeners = listeners.filter(l => l !== listener);
+            }
+        };
+
+        dispatch({});   //执行dispatch
+
+        return { getState, dispatch, subscribe }; //返回这三个方法
+    };
+</script>
+</body>
+</html>
