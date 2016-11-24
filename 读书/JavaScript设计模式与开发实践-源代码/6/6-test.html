@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var MyImage = (function(){
+        var imgNode = document.createElement( 'img' );
+        document.body.appendChild( imgNode );
+        var img = new Image;
+
+        img.onload = function(){  //setSrc第二句执行的时候才调用这个
+            imgNode.src = img.src;
+
+        };
+        return {
+            setSrc: function( src ){
+                imgNode.src = 'http://img1.ph.126.net/v--d2QePp-HCM4AjtDDiNw==/6597366634796921995.gif';
+                img.src = src;  //触发onload
+            }
+        }
+
+    })();
+    MyImage.setSrc( 'http://img.zcool.cn/community/0196bb569f1f1c6ac7256cb0831bb6.gif' );
+</script>
+</body>
+</html>
