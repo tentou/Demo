@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="sylvester.js" type="text/javascript"></script>
+    <script src="glUtils.js" type="text/javascript"></script>
+    <!-- Fragment shader program -->
+
+    <script id="shader-fs" type="x-shader/x-fragment">
+        varying lowp vec4 vColor;
+
+        void main(void) {
+        gl_FragColor = vColor;
+        }
+    </script>
+
+    <!-- Vertex shader program -->
+
+    <script id="shader-vs" type="x-shader/x-vertex">
+      attribute vec3 aVertexPosition;
+      attribute vec4 aVertexColor;
+
+      uniform mat4 uMVMatrix;
+      uniform mat4 uPMatrix;
+
+      varying lowp vec4 vColor;
+
+      void main(void) {
+        gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
+        vColor = aVertexColor;
+      }
+    </script>
+    <script type="text/javascript">
+        var canvas;
+        var gl;
+        var squareVerticesBuffer;
+        var mvMatrix;
+        var shaderProgram;
+        var vertexPositionAttribute;
+        var perspectiveMatrix;
+        function start(){
+            var canvas = document.getElementById("glcanvas");
+            gl = initWebGL(canvas);   // 初始化上下文
+            if(gl){
+                // 设置清除颜色为黑色，不透明
+                gl.clearColor(0.0, 0.0, 0.0, 1.0);
+                // gl.clearDepth(1.0);                 // Clear everything-add
+                // 开启“深度测试”, Z-缓存
+                gl.enable(gl.DEPTH_TEST);
+                // 设置深度测试，近的物体遮挡远的物体
+                gl.depthFunc(gl.LEQUAL);
+                // 清除颜色和深度缓存  --  这一步被搬到创建完顶点后，开始绘画之前去了
+                // gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);
+
+                // ---------------------------
+                // 开始初始化着色器
+                var fragmentShader = getShader(gl,"shader-fs");
+                var vertexShader = getShader(gl, "shader-vs");
+
+                // 创建着色器
+                shaderProgram = gl.createProgram();
+
+                // 关联着色器
+                gl.attachShader(shaderProgram, vertexShader);
+                gl.attachShader(shaderProgram, fragmentShader);
+
+                //链接着色器
+                gl.linkProgram(shaderProgram)
+
+                // 如果创建着色器失败
+                if(!gl.getProgramParameter(shaderProgram,gl.LINK_STATUS)){
+                    alert("Unable to initialize the shader program: " + gl.getProgramInfoLog(shader));
+                }
+                // 设置待用的着色器
+                gl.useProgram(shaderProgram);
+                // 获取指向着色器参数的指针
+                vertexPositionAttribute = gl.getAttribLocation(shaderProgram, "aVertexPosition");
+                gl.enableVertexAttribArray(vertexPositionAttribute);
+                //  添加颜色------开始
+                vertexColorAttribute = gl.getAttribLocation(shaderProgram, "aVertexColor");
+                gl.enableVertexAttribArray(vertexColorAttribute);
+                //  添加颜色------结束
+
+                // -----------创建顶点对象
+                squareVerticesBuffer = gl.createBuffer();
+                // 选择squareVerticesBuffer作为一个顶点
+                gl.bindBuffer(gl.ARRAY_BUFFER, squareVerticesBuffer);
+
+                // 现在创建一个数组顶点的方形。
+                var vertices = [
+                    1.0,  1.0,  0.0,
+                    -1.0, 1.0,  0.0,
+                    1.0,  -1.0, 0.0,
+                    -1.0, -1.0, 0.0
+                ];
+                // 现在通过顶点的列表构建WebGL形状。我们通过JavaScript数组创建一个Float32Array,然后使用它来填补当前顶点缓冲。
+                gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
+
+                //  添加颜色------开始
+                var colors = [
+                    1.0,  1.0,  1.0,  1.0,    // white
+                    1.0,  0.0,  0.0,  1.0,    // red
+                    0.0,  1.0,  0.0,  1.0,    // green
+                    0.0,  0.0,  1.0,  1.0     // blue
+                ];
+
+                squareVerticesColorBuffer = gl.createBuffer();
+                gl.bindBuffer(gl.ARRAY_BUFFER, squareVerticesColorBuffer);
+                gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(colors), gl.STATIC_DRAW);
+                //  添加颜色------结束
+
+                // ------开始画图
+                setInterval(function () {
+                    // 开始绘画前先清除画布
+                    gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+                    // 创建相机透视角矩阵，角度，宽高比，对象所处距离范围
+                    perspectiveMatrix = makePerspective(45, 640.0/480.0, 0.1, 100.0);
+
+                    mvMatrix = Matrix.I(4);
+                    // 现在将这个物体挪动到可视范围
+                    function multMatrix(m) {
+                        mvMatrix = mvMatrix.x(m);
+                    }
+                    multMatrix(Matrix.Translation($V([-0.0, 0.0, -6.0])).ensure4x4());
+                    gl.bindBuffer(gl.ARRAY_BUFFER, squareVerticesBuffer);
+                    gl.vertexAttribPointer(vertexPositionAttribute, 3, gl.FLOAT, false, 0, 0);
+                    //  添加颜色------开始
+                    gl.bindBuffer(gl.ARRAY_BUFFER, squareVerticesColorBuffer);
+                    gl.vertexAttribPointer(vertexColorAttribute, 4, gl.FLOAT, false, 0, 0);
+                    //  添加颜色------结束
+
+                    // 获取 GLSL程序中定义的各个变量的句柄，从而可以用 JavaScript中定义的数值来初始化这些变量
+                    var pUniform = gl.getUniformLocation(shaderProgram, "uPMatrix");
+                    gl.uniformMatrix4fv(pUniform, false, new Float32Array(perspectiveMatrix.flatten()));
+
+                    var mvUniform = gl.getUniformLocation(shaderProgram, "uMVMatrix");
+                    gl.uniformMatrix4fv(mvUniform, false, new Float32Array(mvMatrix.flatten()));
+                    // 绘制物
+                    gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+                }, 15);
+            }
+
+        }
+        function initWebGL(canvas) {
+            window.gl = null;
+            try {
+                // 尝试获取标准上下文，如果失败，回退到试验性上下文
+                gl = canvas.getContext("webgl") || canvas.getContext("experimental-webgl");
+            }
+            catch(e) {}
+
+            // 如果没有GL上下文，马上放弃
+            if (!gl) {
+                alert("WebGL初始化失败，可能是因为您的浏览器不支持。");
+                gl = null;
+            }
+            return gl;
+        }
+        function getShader(gl, id) {
+            var shaderScript = document.getElementById(id);
+
+            // Didn't find an element with the specified ID; abort.
+
+            if (!shaderScript) {
+                return null;
+            }
+
+            // Walk through the source element's children, building the
+            // shader source string.
+
+            var theSource = "";
+            var currentChild = shaderScript.firstChild;
+
+            while(currentChild) {
+                if (currentChild.nodeType == 3) {
+                    theSource += currentChild.textContent;
+                }
+
+                currentChild = currentChild.nextSibling;
+            }
+
+            // Now figure out what type of shader script we have,
+            // based on its MIME type.
+
+            var shader;
+
+            if (shaderScript.type == "x-shader/x-fragment") {
+                shader = gl.createShader(gl.FRAGMENT_SHADER);
+            } else if (shaderScript.type == "x-shader/x-vertex") {
+                shader = gl.createShader(gl.VERTEX_SHADER);
+            } else {
+                return null;  // Unknown shader type
+            }
+
+            // Send the source to the shader object
+
+            gl.shaderSource(shader, theSource);
+
+            // Compile the shader program
+
+            gl.compileShader(shader);
+
+            // See if it compiled successfully
+
+            if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+                alert("An error occurred compiling the shaders: " + gl.getShaderInfoLog(shader));
+                return null;
+            }
+
+            return shader;
+        }
+
+    </script>
+</head>
+
+<body onload="start()">
+    <canvas id="glcanvas" width="640" height="480">
+        Your browser doesn't appear to support the HTML5 <code>&lt;canvas&gt;</code> element.
+    </canvas>
+</body>
+</html>
