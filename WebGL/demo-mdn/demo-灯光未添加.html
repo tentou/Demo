@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="sylvester.js" type="text/javascript"></script>
+    <script src="glUtils.js" type="text/javascript"></script>
+    <!-- Fragment shader program -->
+
+    <script id="shader-fs" type="x-shader/x-fragment">
+        varying highp vec2 vTextureCoord;
+
+        uniform sampler2D uSampler;
+
+        void main(void) {
+        gl_FragColor = texture2D(uSampler, vec2(vTextureCoord.s, vTextureCoord.t));
+        }
+    </script>
+
+    <!-- Vertex shader program -->
+
+    <script id="shader-vs" type="x-shader/x-vertex">
+      attribute vec3 aVertexPosition;
+      attribute vec2 aTextureCoord;
+
+      uniform mat4 uMVMatrix;
+      uniform mat4 uPMatrix;
+
+      varying highp vec2 vTextureCoord;
+
+      void main(void) {
+        gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
+        vTextureCoord = aTextureCoord;
+      }
+    </script>
+    <script type="text/javascript">
+        var canvas;
+        var gl;
+        var cubeVerticesBuffer;
+        var cubeVerticesTextureCoordBuffer;
+        var cubeVerticesIndexBuffer;
+        var cubeRotation = 0.0;
+        var lastCubeUpdateTime = 0;
+        var cubeImage;
+        var cubeTexture;
+        var mvMatrix;
+        var shaderProgram;
+        var vertexPositionAttribute;
+        var textureCoordAttribute;
+        var perspectiveMatrix;
+        function start(){
+            canvas = document.getElementById("glcanvas");
+            gl = initWebGL(canvas);   // 初始化上下文
+            if(gl){
+                // 设置清除颜色为黑色，不透明
+                gl.clearColor(0.0, 0.0, 0.0, 1.0);
+                gl.clearDepth(1.0);                 // Clear everything-add
+                // 开启“深度测试”, Z-缓存
+                gl.enable(gl.DEPTH_TEST);
+                // 设置深度测试，近的物体遮挡远的物体
+                gl.depthFunc(gl.LEQUAL);
+                // 清除颜色和深度缓存  --  这一步被搬到创建完顶点后，开始绘画之前去了
+                // gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);
+
+                // -----------------开始创建着色器----------
+                var fragmentShader = getShader(gl,"shader-fs");
+                var vertexShader = getShader(gl, "shader-vs");
+
+                // 创建着色器
+                shaderProgram = gl.createProgram();
+
+                // 关联着色器
+                gl.attachShader(shaderProgram, vertexShader);
+                gl.attachShader(shaderProgram, fragmentShader);
+
+                //链接着色器
+                gl.linkProgram(shaderProgram)
+
+                // 如果创建着色器失败
+                if(!gl.getProgramParameter(shaderProgram,gl.LINK_STATUS)){
+                    alert("Unable to initialize the shader program: " + gl.getProgramInfoLog(shader));
+                }
+                // 设置待用的着色器
+                gl.useProgram(shaderProgram);
+                // 获取指向着色器参数的指针--开始
+                vertexPositionAttribute = gl.getAttribLocation(shaderProgram, "aVertexPosition");
+                gl.enableVertexAttribArray(vertexPositionAttribute);
+                // 获取指向着色器参数的指针--结束
+
+                //  添加颜色------开始
+                textureCoordAttribute = gl.getAttribLocation(shaderProgram, "aTextureCoord");
+                gl.enableVertexAttribArray(textureCoordAttribute);
+                //  添加颜色------结束
+                //-----------------着色器创建完成-------------------
+
+
+                // ----------------创建顶点对象Buffer---------------
+                var vertices = [
+                    // Front face
+                    -1.0, -1.0,  1.0,
+                    1.0, -1.0,  1.0,
+                    1.0,  1.0,  1.0,
+                    -1.0,  1.0,  1.0,
+
+                    // Back face
+                    -1.0, -1.0, -1.0,
+                    -1.0,  1.0, -1.0,
+                    1.0,  1.0, -1.0,
+                    1.0, -1.0, -1.0,
+
+                    // Top face
+                    -1.0,  1.0, -1.0,
+                    -1.0,  1.0,  1.0,
+                    1.0,  1.0,  1.0,
+                    1.0,  1.0, -1.0,
+
+                    // Bottom face
+                    -1.0, -1.0, -1.0,
+                    1.0, -1.0, -1.0,
+                    1.0, -1.0,  1.0,
+                    -1.0, -1.0,  1.0,
+
+                    // Right face
+                    1.0, -1.0, -1.0,
+                    1.0,  1.0, -1.0,
+                    1.0,  1.0,  1.0,
+                    1.0, -1.0,  1.0,
+
+                    // Left face
+                    -1.0, -1.0, -1.0,
+                    -1.0, -1.0,  1.0,
+                    -1.0,  1.0,  1.0,
+                    -1.0,  1.0, -1.0
+                ];
+                cubeVerticesBuffer = gl.createBuffer();
+                // 选择cubeVerticesBuffer作为一个顶点
+                gl.bindBuffer(gl.ARRAY_BUFFER, cubeVerticesBuffer);
+                // 现在通过顶点的列表构建WebGL形状。我们通过JavaScript数组创建一个Float32Array,然后使用它来填补当前顶点缓冲。
+                gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
+
+                // ----------------创建颜色对象Buffer---------------
+                var textureCoordinates = [
+                    // Front
+                    0.0,  0.0,
+                    1.0,  0.0,
+                    1.0,  1.0,
+                    0.0,  1.0,
+                    // Back
+                    0.0,  0.0,
+                    1.0,  0.0,
+                    1.0,  1.0,
+                    0.0,  1.0,
+                    // Top
+                    0.0,  0.0,
+                    1.0,  0.0,
+                    1.0,  1.0,
+                    0.0,  1.0,
+                    // Bottom
+                    0.0,  0.0,
+                    1.0,  0.0,
+                    1.0,  1.0,
+                    0.0,  1.0,
+                    // Right
+                    0.0,  0.0,
+                    1.0,  0.0,
+                    1.0,  1.0,
+                    0.0,  1.0,
+                    // Left
+                    0.0,  0.0,
+                    1.0,  0.0,
+                    1.0,  1.0,
+                    0.0,  1.0
+                ];
+                cubeVerticesTextureCoordBuffer = gl.createBuffer();
+                gl.bindBuffer(gl.ARRAY_BUFFER, cubeVerticesTextureCoordBuffer);
+                gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(textureCoordinates), gl.STATIC_DRAW);
+
+                // ----------------创建索引对象Buffer---------------
+                // 每个三角形的顶点索引
+                var cubeVertexIndices = [
+                    0,  1,  2,      0,  2,  3,    // front
+                    4,  5,  6,      4,  6,  7,    // back
+                    8,  9,  10,     8,  10, 11,   // top
+                    12, 13, 14,     12, 14, 15,   // bottom
+                    16, 17, 18,     16, 18, 19,   // right
+                    20, 21, 22,     20, 22, 23    // left
+                ];
+                cubeVerticesIndexBuffer = gl.createBuffer();
+                gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, cubeVerticesIndexBuffer);
+                gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, new Uint16Array(cubeVertexIndices), gl.STATIC_DRAW);
+
+                initTextures();
+                // ----------------开始画图drawScene---------------
+                setInterval(function () {
+                    // 开始绘画前先清除画布
+                    gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+                    // 创建相机透视角矩阵，角度，宽高比，对象所处距离范围
+                    perspectiveMatrix = makePerspective(45, 640.0/480.0, 0.1, 100.0);
+                    // loadIdentity + multMatrix 都是操作的Matrix,所以封装了起来
+                    function loadIdentity() {
+                        mvMatrix = Matrix.I(4);
+                    }
+                    loadIdentity()
+                    // 现在将这个物体挪动到可视范围   --其实就是 mvTranslate([-0.0, 0.0, -6.0]); 只是给展开了
+                    function multMatrix(m) {
+                        mvMatrix = mvMatrix.x(m);
+                    }
+                    multMatrix(Matrix.Translation($V([-0.0, 0.0, -6.0])).ensure4x4());
+
+
+
+                    // 2.添加动画------开始
+                    // 恢复原始矩阵，避免绘制其它图形时也受到这次旋转的影响
+                    var mvMatrixStack = [];
+                    function mvPushMatrix(m) {
+                        if (m) {
+                            mvMatrixStack.push(m.dup());
+                            mvMatrix = m.dup();
+                        } else {
+                            mvMatrixStack.push(mvMatrix.dup());
+                        }
+                    }
+                    function mvPopMatrix() {
+                        if (!mvMatrixStack.length) {
+                            throw("Can't pop from an empty matrix stack.");
+                        }
+
+                        mvMatrix = mvMatrixStack.pop();
+                        return mvMatrix;
+                    }
+                    function mvRotate(angle, v) {
+                        var inRadians = angle * Math.PI / 180.0;
+                        var m = Matrix.Rotation(inRadians, $V([v[0], v[1], v[2]])).ensure4x4();
+                        multMatrix(m);
+                    }
+                    mvPushMatrix();
+                    mvRotate(cubeRotation, [1, 0, 1]);
+
+
+                    // ------------------关联数据格式和位置(必须在这里)-------------------
+                    // 指定了渲染时索引值为 index 的顶点属性数组的数据格式和位置
+                    // 顶点
+                    gl.bindBuffer(gl.ARRAY_BUFFER, cubeVerticesBuffer);
+                    gl.vertexAttribPointer(vertexPositionAttribute, 3, gl.FLOAT, false, 0, 0);
+                    // 纹理
+                    gl.bindBuffer(gl.ARRAY_BUFFER, cubeVerticesTextureCoordBuffer);
+                    gl.vertexAttribPointer(textureCoordAttribute, 2, gl.FLOAT, false, 0, 0);
+
+                    gl.activeTexture(gl.TEXTURE0);
+                    gl.bindTexture(gl.TEXTURE_2D, cubeTexture);
+                    gl.uniform1i(gl.getUniformLocation(shaderProgram, "uSampler"), 0);
+
+                    // 索引
+                    gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, cubeVerticesIndexBuffer);
+
+                    // 获取 GLSL程序中定义的各个变量的句柄，从而可以用 JavaScript中定义的数值来初始化这些变量
+                    var pUniform = gl.getUniformLocation(shaderProgram, "uPMatrix");
+                    gl.uniformMatrix4fv(pUniform, false, new Float32Array(perspectiveMatrix.flatten()));
+                    var mvUniform = gl.getUniformLocation(shaderProgram, "uMVMatrix");
+                    gl.uniformMatrix4fv(mvUniform, false, new Float32Array(mvMatrix.flatten()));
+
+                    // ---------------------绘制物---------------------------
+                    gl.drawElements(gl.TRIANGLES, 36, gl.UNSIGNED_SHORT, 0);
+
+                    // 这下边必须放在后边
+                    mvPopMatrix();
+                    var currentTime = Date.now();
+                    if (lastCubeUpdateTime) {
+                        var delta = currentTime - lastCubeUpdateTime;
+
+                        cubeRotation += (30 * delta) / 1000.0;
+                    }
+
+                    lastCubeUpdateTime = currentTime;
+                    // 2.添加动画------结束
+                }, 15);
+            }
+
+        }
+        function initTextures() {
+            cubeTexture = gl.createTexture();
+            cubeImage = new Image();
+            cubeImage.onload = function() { handleTextureLoaded(cubeImage, cubeTexture); }
+            cubeImage.src = "cubetexture.png";
+        }
+
+        function handleTextureLoaded(image, texture) {
+            console.log("handleTextureLoaded, image = " + image);
+            gl.bindTexture(gl.TEXTURE_2D, texture);
+            gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA,
+                gl.UNSIGNED_BYTE, image);
+            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR_MIPMAP_NEAREST);
+            gl.generateMipmap(gl.TEXTURE_2D);
+            gl.bindTexture(gl.TEXTURE_2D, null);
+        }
+        function initWebGL(canvas) {
+            window.gl = null;
+            try {
+                // 尝试获取标准上下文，如果失败，回退到试验性上下文
+                gl = canvas.getContext("webgl") || canvas.getContext("experimental-webgl");
+            }
+            catch(e) {}
+
+            // 如果没有GL上下文，马上放弃
+            if (!gl) {
+                alert("WebGL初始化失败，可能是因为您的浏览器不支持。");
+                gl = null;
+            }
+            return gl;
+        }
+        function getShader(gl, id) {
+            var shaderScript = document.getElementById(id);
+
+            // Didn't find an element with the specified ID; abort.
+
+            if (!shaderScript) {
+                return null;
+            }
+
+            // Walk through the source element's children, building the
+            // shader source string.
+
+            var theSource = "";
+            var currentChild = shaderScript.firstChild;
+
+            while(currentChild) {
+                if (currentChild.nodeType == 3) {
+                    theSource += currentChild.textContent;
+                }
+
+                currentChild = currentChild.nextSibling;
+            }
+
+            // Now figure out what type of shader script we have,
+            // based on its MIME type.
+
+            var shader;
+
+            if (shaderScript.type == "x-shader/x-fragment") {
+                shader = gl.createShader(gl.FRAGMENT_SHADER);
+            } else if (shaderScript.type == "x-shader/x-vertex") {
+                shader = gl.createShader(gl.VERTEX_SHADER);
+            } else {
+                return null;  // Unknown shader type
+            }
+
+            // Send the source to the shader object
+
+            gl.shaderSource(shader, theSource);
+
+            // Compile the shader program
+
+            gl.compileShader(shader);
+
+            // See if it compiled successfully
+
+            if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+                alert("An error occurred compiling the shaders: " + gl.getShaderInfoLog(shader));
+                return null;
+            }
+
+            return shader;
+        }
+
+    </script>
+</head>
+
+<body onload="start()">
+    <canvas id="glcanvas" width="640" height="480">
+        Your browser doesn't appear to support the HTML5 <code>&lt;canvas&gt;</code> element.
+    </canvas>
+</body>
+</html>
